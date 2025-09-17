@@ -1,274 +1,343 @@
 {
-    "dashboard": {
-		"steps": [
-			{
-				"element": ""
-			},
-			{
-				"element": "main #app-dashboard",
-				"specialForVersions": [{
-					"versions": ["31", "32"],
-					"type": "server",
-					"element": "main#app-dashboard"
-				}]
-			},
-			{
-				"position": "floating",
-				"element": "main #app-dashboard .panels",
-				"specialForVersions": [{
-					"versions": ["31", "32"],
-					"type": "server",
-					"element": "main#app-dashboard .panels"
-				}]
-			},
-			{
-				"element": "main #app-dashboard > div.footer > button",
-				"specialForVersions": [{
-					"versions": ["31", "32"],
-					"type": "server",
-					"element": "main#app-dashboard > div.footer > button"
-				}]
-			},
-			{
-				"element": "header#header > div.header-start > nav.app-menu > ul.app-menu__list, header#header > div.header-left > nav.app-menu > ul.app-menu__list"
-			},
-			{
-				"element": "nav#user-menu"
-			},
-			{
-				"element": "nav#user-menu > #header-menu-user-menu > .header-menu__content > ul.account-menu__list > li:has(a#settings)",
-				"open": "nav#user-menu > button",
-				"position": "left"
-			},
-			{
-				"element": "nav#user-menu > #header-menu-user-menu > .header-menu__content > ul.account-menu__list > li:has(a#intros)",
-				"open": "nav#user-menu > button",
-				"position": "left"
-			},
-			{
-				"element": "",
-				"links": [
-					"files",
-					"calendar"
-				]
-			}
-		]
-    },
-    "files": {
-        "steps": [
-            {
-                "element": ""
-            },
-            {
-                "element": "div.files-list > .files-list__table"
-            },
-            {
-                "element": "div.files-list__header > div.breadcrumb > div.breadcrumb__actions"
-            },
-            {
-                "element": "div.v-popper__inner > div > div.open > ul > li.action",
-                "open": "div.files-list__header > div.breadcrumb > div.breadcrumb__actions > form.files-list__header-upload-button > div.action-item > div.v-popper > button",
-                "position": "right"
-            },
-            {
-                "element": "div.v-popper__inner > div > div.open > ul",
-                "open": "div.files-list__header > div.breadcrumb > div.breadcrumb__actions > form.files-list__header-upload-button > div.action-item > div.v-popper > button",
-                "position": "right"
-            },
-            {
-                "element": "div.app-navigation"
-            },
-            {
-                "element": "tr.files-list__row > td.files-list__row-actions > div > div.action-item",
-                "position": "bottom"
-            },
-            {
-                "element": "tr.files-list__row > td.files-list__row-actions > div > button",
-                "position": "bottom"
-            },
-            {
-                "links": [
-                    "dashboard",
-                    "calendar",
-                    "spreed",
-                    "contacts"
-                ]
-            }
+  "dashboard": {
+    "steps": [
+      {
+        "element": ""
+      },
+      {
+        "element": "main #app-dashboard",
+        "specialForVersions": [
+          {
+            "versions": ["31", "32"],
+            "type": "server",
+            "element": "main#app-dashboard"
+          }
         ]
-    },
-    "files-aside-tab-sharing": {
-        "steps": [
-            {
-                "element": ""
-            },
-			{
-				"element": "section#tab-sharing > div.sharingTab > div > ul:last-child",
-				"position": "left",
-				"specialForVersions": [{
-					"versions": ["31", "32"],
-					"type": "server",
-					"element": "section#tab-sharing > div.sharingTab > div > section:first-child",
-					"position": "left"
-				}]
-			},
-			{
-				"element": "section#tab-sharing > div.sharingTab > div > ul.sharing-link-list",
-				"position": "left",
-				"specialForVersions": [{
-					"versions": ["31", "32"],
-					"type": "server",
-					"element": "section#tab-sharing > div.sharingTab > div > section:last-child",
-					"position": "left"
-				}]
-			},
-			{
-				"element": "section#tab-sharing > div.sharingTab > div > div.sharing-search",
-				"position": "left",
-				"specialForVersions": [{
-					"versions": ["31", "32"],
-					"type": "server",
-					"element": "section#tab-sharing > div.sharingTab > div > section:last-child",
-					"position": "left"
-				}]
-			},
-            {
-                "element": ""
-            }
+      },
+      {
+        "position": "floating",
+        "element": "main #app-dashboard .panels",
+        "specialForVersions": [
+          {
+            "versions": ["31", "32"],
+            "type": "server",
+            "element": "main#app-dashboard .panels"
+          }
         ]
-    },
-    "user": {
-        "steps": [
-            {
-                "element": ""
-            },
-            {
-                "element": "div#header-menu-user-menu",
-                "open": "nav#user-menu > button",
-                "position": "left"
-            },
-            {
-                "element": "div#app-navigation > nav.app-navigation-personal > ul > li[data-section-id='personal-info']",
-                "position": "right"
-            },
-            {
-                "element": "div#app-navigation > nav.app-navigation-personal > ul > li[data-section-id='security']",
-                "position": "right"
-            },
-            {
-                "element": "div#app-navigation > nav.app-navigation-personal > ul > li[data-section-id='notifications']",
-                "position": "right"
-            },
-            {
-                "links": [
-                    "dashboard",
-                    "files",
-                    "calendar",
-                    "spreed",
-                    "contacts"
-                ]
-            }
+      },
+      {
+        "element": "main #app-dashboard > div.footer > button",
+        "specialForVersions": [
+          {
+            "versions": ["31", "32"],
+            "type": "server",
+            "element": "main#app-dashboard > div.footer > button"
+          }
         ]
-    },
-    "calendar": {
-        "steps": [
-            {
-                "element": ""
-            },
-            {
-                "element": "main#app-content-vue > div"
-            },
-            {
-                "element": "div.v-popper__popper--shown",
-                "open": "div.new-event-today-view-section > div.action-item > div > button"
-            },
-            {
-                "element": "div.new-event-today-view-section > button.today"
-            },
-            {
-                "element": "ul.app-navigation__list > div",
-                "position": "right"
-            },
-            {
-                "element": "ul.app-navigation__list > .calendar-list-wrapper li.app-navigation-entry-new-calendar button",
-                "position": "right"
-            },
-			{
-				"element": "ul.app-navigation__list > .calendar-list-wrapper li.app-navigation-entry-wrapper:not(:has(a.app-navigation-entry-link[title~=\"contacts\"])) div.app-navigation-entry__utils > button",
-				"position": "right",
-				"hover": true
-			},
-            {
-                "element": ".edit-calendar-modal__sharing",
-				"open": "ul.app-navigation__list > .calendar-list-wrapper li.app-navigation-entry-wrapper:not(:has(a.app-navigation-entry-link[title~=\"contacts\"])) div.app-navigation-entry__utils > button",
-                "position": "right",
-                "hover": true
-            },
-            {
-                "element": "div.new-event-today-view-section > button.new-event"
-            },
-            {
-                "element": "div#app-settings__content > ul > li:first-child",
-                "open": "div#app-settings > div > button",
-                "position": "right"
-            },
-            {
-                "links": [
-                    "dashboard",
-                    "files",
-                    "spreed",
-                    "contacts"
-                ]
-            }
+      },
+      {
+        "element": "header#header > div.header-start > nav.app-menu > ul.app-menu__list, header#header > div.header-left > nav.app-menu > ul.app-menu__list"
+      },
+      {
+        "element": "nav#user-menu"
+      },
+      {
+        "element": "nav#user-menu > #header-menu-user-menu > .header-menu__content > ul.account-menu__list > li:has(a#settings)",
+        "open": "nav#user-menu > button",
+        "position": "left"
+      },
+      {
+        "element": "nav#user-menu > #header-menu-user-menu > .header-menu__content > ul.account-menu__list > li:has(a#intros)",
+        "open": "nav#user-menu > button",
+        "position": "left"
+      },
+      {
+        "element": "",
+        "links": ["files", "calendar", "deck"]
+      }
+    ]
+  },
+  "files": {
+    "steps": [
+      {
+        "element": ""
+      },
+      {
+        "element": "div.files-list > .files-list__table"
+      },
+      {
+        "element": "div.files-list__header > div.breadcrumb > div.breadcrumb__actions"
+      },
+      {
+        "element": "div.v-popper__inner > div > div.open > ul > li.action",
+        "open": "div.files-list__header > div.breadcrumb > div.breadcrumb__actions > form.files-list__header-upload-button > div.action-item > div.v-popper > button",
+        "position": "right"
+      },
+      {
+        "element": "div.v-popper__inner > div > div.open > ul",
+        "open": "div.files-list__header > div.breadcrumb > div.breadcrumb__actions > form.files-list__header-upload-button > div.action-item > div.v-popper > button",
+        "position": "right"
+      },
+      {
+        "element": "div.app-navigation"
+      },
+      {
+        "element": "tr.files-list__row > td.files-list__row-actions > div > div.action-item",
+        "position": "bottom"
+      },
+      {
+        "element": "tr.files-list__row > td.files-list__row-actions > div > button",
+        "position": "bottom"
+      },
+      {
+        "links": ["dashboard", "calendar", "spreed", "contacts", "deck"]
+      }
+    ]
+  },
+  "files-aside-tab-sharing": {
+    "steps": [
+      {
+        "element": ""
+      },
+      {
+        "element": "section#tab-sharing > div.sharingTab > div > ul:last-child",
+        "position": "left",
+        "specialForVersions": [
+          {
+            "versions": ["31", "32"],
+            "type": "server",
+            "element": "section#tab-sharing > div.sharingTab > div > section:first-child",
+            "position": "left"
+          }
         ]
-    },
-    "contacts": {
-        "steps": [
-            {
-                "element": ""
-            },
-            {
-                "element": "div.import-and-new-contact-buttons > button",
-                "position": "right"
-            },
-            {
-                "element": "div.contacts-settings a.app-navigation-entry-link"},
-            {
-                "element": "nav#app-navigation-vue > ul.app-navigation__list > li.app-navigation-caption",
-                "position": "right"
-            },
-            {
-                "element": "nav#app-navigation-vue > ul.app-navigation__list > li.app-navigation-caption:nth-child(2 of .app-navigation-caption)",
-                "position": "right"
-            },
-            {
-                "links": [
-                    "spreed",
-                    "calendar"
-                ]
-            }
+      },
+      {
+        "element": "section#tab-sharing > div.sharingTab > div > ul.sharing-link-list",
+        "position": "left",
+        "specialForVersions": [
+          {
+            "versions": ["31", "32"],
+            "type": "server",
+            "element": "section#tab-sharing > div.sharingTab > div > section:last-child",
+            "position": "left"
+          }
         ]
-    },
-    "spreed": {
-        "steps": [
-            {
-                "element": ""
-            },
-            {
-                "element": "div.app-navigation > nav#app-navigation-vue > ul",
-                "position": "right"
-            },
-            {
-                "element": "div.new-conversation > div.actions > div.v-popper > button"
-            },
-            {
-                "element": "div.new-conversation > div.conversations-search"
-            },
-            {
-                "links": [
-                    "contacts",
-                    "calendar"
-                ]
-            }
+      },
+      {
+        "element": "section#tab-sharing > div.sharingTab > div > div.sharing-search",
+        "position": "left",
+        "specialForVersions": [
+          {
+            "versions": ["31", "32"],
+            "type": "server",
+            "element": "section#tab-sharing > div.sharingTab > div > section:last-child",
+            "position": "left"
+          }
         ]
-    }
+      },
+      {
+        "element": ""
+      }
+    ]
+  },
+  "user": {
+    "steps": [
+      {
+        "element": ""
+      },
+      {
+        "element": "div#header-menu-user-menu",
+        "open": "nav#user-menu > button",
+        "position": "left"
+      },
+      {
+        "element": "div#app-navigation > nav.app-navigation-personal > ul > li[data-section-id='personal-info']",
+        "position": "right"
+      },
+      {
+        "element": "div#app-navigation > nav.app-navigation-personal > ul > li[data-section-id='security']",
+        "position": "right"
+      },
+      {
+        "element": "div#app-navigation > nav.app-navigation-personal > ul > li[data-section-id='notifications']",
+        "position": "right"
+      },
+      {
+        "links": [
+          "dashboard",
+          "files",
+          "calendar",
+          "spreed",
+          "contacts",
+          "deck"
+        ]
+      }
+    ]
+  },
+  "calendar": {
+    "steps": [
+      {
+        "element": ""
+      },
+      {
+        "element": "main#app-content-vue > div"
+      },
+      {
+        "element": "div.v-popper__popper--shown",
+        "open": "div.new-event-today-view-section > div.action-item > div > button"
+      },
+      {
+        "element": "div.new-event-today-view-section > button.today"
+      },
+      {
+        "element": "ul.app-navigation__list > div",
+        "position": "right"
+      },
+      {
+        "element": "ul.app-navigation__list > .calendar-list-wrapper li.app-navigation-entry-new-calendar button",
+        "position": "right"
+      },
+      {
+        "element": "ul.app-navigation__list > .calendar-list-wrapper li.app-navigation-entry-wrapper:not(:has(a.app-navigation-entry-link[title~=\"contacts\"])) div.app-navigation-entry__utils > button",
+        "position": "right",
+        "hover": true
+      },
+      {
+        "element": ".edit-calendar-modal__sharing",
+        "open": "ul.app-navigation__list > .calendar-list-wrapper li.app-navigation-entry-wrapper:not(:has(a.app-navigation-entry-link[title~=\"contacts\"])) div.app-navigation-entry__utils > button",
+        "position": "right",
+        "hover": true
+      },
+      {
+        "element": "div.new-event-today-view-section > button.new-event"
+      },
+      {
+        "element": "div#app-settings__content > ul > li:first-child",
+        "open": "div#app-settings > div > button",
+        "position": "right"
+      },
+      {
+        "links": ["dashboard", "files", "spreed", "contacts", "deck"]
+      }
+    ]
+  },
+  "contacts": {
+    "steps": [
+      {
+        "element": ""
+      },
+      {
+        "element": "div.import-and-new-contact-buttons > button",
+        "position": "right"
+      },
+      {
+        "element": "div.contacts-settings a.app-navigation-entry-link"
+      },
+      {
+        "element": "nav#app-navigation-vue > ul.app-navigation__list > li.app-navigation-caption",
+        "position": "right"
+      },
+      {
+        "element": "nav#app-navigation-vue > ul.app-navigation__list > li.app-navigation-caption:nth-child(2 of .app-navigation-caption)",
+        "position": "right"
+      },
+      {
+        "links": ["spreed", "calendar", "deck"]
+      }
+    ]
+  },
+  "spreed": {
+    "steps": [
+      {
+        "element": ""
+      },
+      {
+        "element": "div.app-navigation > nav#app-navigation-vue > ul",
+        "position": "right"
+      },
+      {
+        "element": "div.new-conversation > div.actions > div.v-popper > button"
+      },
+      {
+        "element": "div.new-conversation > div.conversations-search"
+      },
+      {
+        "links": ["contacts", "calendar", "deck"]
+      }
+    ]
+  },
+  "deck": {
+    "steps": [
+      {
+        "element": "",
+        "route": "deck"
+      },
+      {
+        "element": "html.ng-csp body#body-user div#content-vue.content.app-deck.sidebar-hidden div.app-navigation nav#app-navigation-vue.app-navigation__content ul.app-navigation-list.app-navigation__list",
+        "position": "right",
+        "route": "deck/board"
+      },
+      {
+        "element": "main#app-content-vue",
+        "position": "bottom",
+        "route": "deck/board"
+      },
+      {
+        "element": "div.app-navigation nav#app-navigation-vue.app-navigation__content ul.app-navigation-list.app-navigation__list li.app-navigation-entry-wrapper div.app-navigation-entry__utils button",
+        "position": "bottom",
+        "route": "deck/board"
+      },
+      {
+        "element": "div.stack:first-of-type",
+        "position": "top",
+        "route": "deck/board"
+      },
+      {
+        "element": "div.stack:first-of-type .stack__header h3",
+        "position": "bottom",
+        "route": "deck/board"
+      },
+      {
+        "element": "div.card:first-of-type",
+        "position": "right",
+        "route": "deck/board"
+      },
+      {
+        "links": ["dashboard", "files", "calendar"],
+        "route": "deck/board"
+      }
+    ]
+  },
+  "forms": {
+    "steps": [
+      {
+        "element": "",
+        "route": "forms"
+      },
+      {
+        "element": "",
+        "route": "forms",
+        "image": "./img/form_01.png"
+      },
+      {
+        "element": "",
+        "route": "forms",
+        "image": "./img/form_02.png"
+      },
+      {
+        "element": "",
+        "route": "forms",
+        "image": "./img/form_03.png"
+      },
+      {
+        "element": "",
+        "route": "forms",
+        "image": "./img/form_04.png"
+      },
+      {
+        "element": "",
+        "route": "forms"
+      }
+    ]
+  }
 }

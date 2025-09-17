@@ -1,371 +1,498 @@
 {
-    "dashboard": {
-        "name": "Tableau de bord",
-        "steps": [
-            {
-                "title": "Bienvenue !",
-                "paragraphs": [
-                    "Bienvenue sur le tableau de bord de Nextcloud.",
-                    "<br>",
-                    "Souhaitez-vous suivre une visite guidée de quelques minutes avant de commencer à utiliser Nextcloud ?"
-                ],
-                "choices": [
-                    {
-                        "success": false,
-                        "label": "Non"
-                    },
-                    {
-                        "success": true,
-                        "label": "Oui"
-                    }
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Sur votre <i>Tableau de bord</i>, vous retrouvez une vue d’ensemble de ce qui s’est passé récemment au sein de ce Nextcloud."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Les <i>Fichiers recommandés</i> sont les fichiers stockés sur ce Nextcloud qui ont été créés ou modifiés récemment.",
-                    "<br>",
-                    "Les <i>Événements à venir</i> correspondent à vos agendas et ceux partagés par les utilisateurs de ce Nextcloud."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "En cliquant sur <i>Personnaliser</i>, vous pouvez <b>choisir d’enlever ou d’ajouter des éléments</b> sur cette page d’accueil.",
-                    "C’est <b>votre</b> espace, vos choix n’auront pas d’impact sur les autres utilisateurs !"
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Vous trouverez ici les différentes <b>applications</b> installées sur ce Nextcloud."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Vous vous êtes connecté·e grâce à un identifiant et un mot de passe.",
-                    "Les informations relatives à votre compte sont disponibles en cliquant ici."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Vous pouvez retrouver et modifier vos informations personnelles en cliquant ici."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Vous pouvez aussi retrouver <b>l’ensemble des visites guidées</b> en cliquant sur le bouton <i>Visites guidées</i>.",
-                    "Vous pouvez activer et désactiver les visites guidées des applications à tout moment grâce à ce menu."
-                ]
-            },
-            {
-                "title": "À bientôt !",
-                "paragraphs": [
-                    "Cette visite guidée est maintenant terminée.",
-                    "Vous pouvez accéder aux visites guidées d’autres applications en cliquant ci-dessous :"
-                ]
-            }
+  "dashboard": {
+    "name": "Tableau de bord",
+    "steps": [
+      {
+        "title": "Bienvenue !",
+        "paragraphs": [
+          "Bienvenue sur le tableau de bord de Nextcloud.",
+          "<br>",
+          "Souhaitez-vous suivre une visite guidée de quelques minutes avant de commencer à utiliser Nextcloud ?"
+        ],
+        "choices": [
+          {
+            "success": false,
+            "label": "Non"
+          },
+          {
+            "success": true,
+            "label": "Oui"
+          }
         ]
-    },
-    "files": {
-        "name": "Fichiers",
-        "steps": [
-            {
-                "title": "Bienvenue !",
-                "paragraphs": [
-                    "Bienvenue dans la visite guidée de l’application <i>Fichiers</i> qui constitue le cœur de Nextcloud !"
-                ],
-                "choices": [
-                    {
-                        "success": false,
-                        "label": "Je ne souhaite pas suivre cette visite"
-                    }
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Vous retrouvez au centre votre arborescence avec vos différents dossiers et fichiers."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Avec le bouton <i>Nouveau</i>, vous pouvez <b>ajouter des nouveaux documents et dossiers</b> à votre espace Nextcloud."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Vous pouvez téléverser un fichier depuis votre ordinateur…"
-                ]
-            },
-            {
-                "paragraphs": [
-                    "… ou créer un fichier ou un dossier directement dans cet espace."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Le volet latéral permet d’accéder notamment aux <b>fichiers récemment utilisés</b> (<i>Récents</i>) ou à la <b>corbeille</b> (<i>Fichiers supprimés</i>)."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "En cliquant sur les trois points, vous aurez l’ensemble des actions possibles pour un document ou un dossier.",
-                    "Par exemple : <i>Renommer</i>, <i>Télécharger</i> ou <i>Supprimer</i>."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Les dossiers et fichiers ne sont pas forcément accessibles à d’autres personnes. Vous pouvez partager un fichier, de manière publique ou privée.",
-                    "Pour en savoir plus sur les <b>options de partage</b>, cliquez sur l'icone de partage après cette visite."
-                ]
-            },
-            {
-                "title": "À bientôt !",
-                "paragraphs": [
-                    "Cette visite guidée est maintenant terminée.",
-                    "Vous pouvez accéder aux visites guidées d’autres applications en cliquant ci-dessous :"
-                ]
-            }
+      },
+      {
+        "paragraphs": [
+          "Sur votre <i>Tableau de bord</i>, vous retrouvez une vue d’ensemble de ce qui s’est passé récemment au sein de ce Nextcloud."
         ]
-    },
-    "files-aside-tab-sharing": {
-        "name": "Partages",
-        "steps": [
-            {
-                "title": "Partager des fichiers",
-                "paragraphs": [
-                    "Bienvenue dans la visite guidée de la gestion du partage d'un fichier."
-                ],
-                "choices": [
-                    {
-                        "success": false,
-                        "label": "Je ne souhaite pas suivre cette visite"
-                    }
-                ]
-            },
-			{
-				"paragraphs": [
-					"Vous pouvez diffuser un lien de partage aux autres utilisateurs de ce Nextcloud et ainsi leur permettre d’accéder à un de vos fichiers ou dossiers.",
-					"Ce lien ne sera accessible <b>qu'aux personnes qui ont un compte sur ce Nextcloud</b> !"
-				]
-			},
-			{
-				"paragraphs": [
-					"Il est aussi possible de faire un <b>lien public</b> pour des personnes n’ayant pas de compte sur ce Nextcloud et de définir si la personne peut juste consulter l’élément ou le modifier."
-				]
-			},
-			{
-				"paragraphs": [
-					"Enfin, il est possible de <b>partager un dossier ou un fichier par mail</b> en écrivant l’adresse de la personne destinataire et en définissant là aussi si la personne peut juste lire l’élément ou le modifier."
-				]
-			},
-            {
-                "title": "À bientôt !",
-                "paragraphs": [
-                    "Cette visite guidée est maintenant terminée."
-                ]
-            }
+      },
+      {
+        "paragraphs": [
+          "Les <i>Fichiers recommandés</i> sont les fichiers stockés sur ce Nextcloud qui ont été créés ou modifiés récemment.",
+          "<br>",
+          "Les <i>Événements à venir</i> correspondent à vos agendas et ceux partagés par les utilisateurs de ce Nextcloud."
         ]
-    },
-    "user": {
-        "name": "Personnaliser son profil",
-        "steps": [
-            {
-                "title": "Bienvenue !",
-                "paragraphs": [
-                    "Cette section vous permet d'accéder à vos paramètres personnels."
-                ],
-                "choices": [
-                    {
-                        "success": false,
-                        "label": "Je ne souhaite pas suivre cette visite"
-                    }
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Votre profil est accessible à tout moment en haut à droite. Il donne accès à vos paramètres personnels."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Le menu <i>Informations personnelles</i> vous permet de modifier votre nom, votre image de profil ou encore de préciser votre langue."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Le menu <i>Sécurité</i> vous permet notamment de <b>modifier votre mot de passe</b> en cas de besoin."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Le menu <i>Notifications</i> vous permet de définir si vous souhaitez être informé·e par mail quand certaines activités ont eu lieu sur ce Nextcloud."
-                ]
-            },
-            {
-                "title": "À bientôt !",
-                "paragraphs": [
-                    "Cette visite guidée est maintenant terminée.",
-                    "Vous pouvez accéder aux visites guidées d’autres applications en cliquant ci-dessous :"
-                ]
-            }
+      },
+      {
+        "paragraphs": [
+          "En cliquant sur <i>Personnaliser</i>, vous pouvez <b>choisir d’enlever ou d’ajouter des éléments</b> sur cette page d’accueil.",
+          "C’est <b>votre</b> espace, vos choix n’auront pas d’impact sur les autres utilisateurs !"
         ]
-    },
-    "calendar": {
-        "name": "Agenda",
-        "steps": [
-            {
-                "title": "Bienvenue !",
-                "paragraphs": [
-                    "L'application <i>Agenda</i> vous permet de gérer vos évènements."
-                ],
-                "choices": [
-                    {
-                        "success": false,
-                        "label": "Je ne souhaite pas suivre cette visite"
-                    }
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Le calendrier central vous informe des événements que vous avez crées ou qui ont été partagés avec vous."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Vous pouvez changer de période grâce à l’indicateur de vue."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Le bouton <i>Auj</i> permet de recentrer la vue sur la journée, la semaine ou le mois en cours."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Les agendas auxquels vous avez accès (les vôtres et ceux qui vous sont partagés) sont listés ici."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Vous pouvez créer un nouvel agenda qui s’ajoutera dans la liste grâce à ce bouton."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Vous pouvez modifier un agenda en cliquant sur l’icône représentant un crayon."
-                ]
-            },
-			{
-				"paragraphs": [
-					"Vous pouvez partager un agenda avec un autre utilisateur, un groupe ou bien par lien public."
-				]
-			},
-            {
-                "paragraphs": [
-                    "Vous pouvez créer un nouvel événement et l'ajouter à l’un des agendas."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Il est possible <b>d’importer un évènement issu d’un autre calendrier</b> (par exemple à partir d’un fichier de type .ics) en cliquant sur <i>Paramètres de agenda</i>, puis <i>Importer un agenda</i>."
-                ]
-            },
-            {
-                "title": "À bientôt !",
-                "paragraphs": [
-                    "Cette visite guidée est maintenant terminée.",
-                    "Vous pouvez accéder aux visites guidées d’autres applications en cliquant ci-dessous :"
-                ]
-            }
+      },
+      {
+        "paragraphs": [
+          "Vous trouverez ici les différentes <b>applications</b> installées sur ce Nextcloud."
         ]
-    },
-    "contacts": {
-        "name": "Contacts",
-        "steps": [
-            {
-                "title": "Bienvenue !",
-                "paragraphs": [
-                    "L’application <i>Contacts</i> vous permet d’enregistrer vos contacts personnels. Par défaut, personne d’autre que vous ne peut y accéder."
-                ],
-                "choices": [
-                    {
-                        "success": false,
-                        "label": "Je ne souhaite pas suivre cette visite"
-                    }
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Pour ajouter un contact, cliquez ici et ajoutez son nom et ses coordonnées."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Vous pouvez aussi <b>importer un répertoire</b> depuis un autre logiciel dans la rubrique <i>Paramètres de Contacts</i>.",
-					"Il est aussi possible de créer d'autres carnets d'adresses ou bien de les partager avec d'autres utilisateurs."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Avec les groupes, organisez vos contacts comme vous l’entendez.",
-                    "Ces groupes sont <b>vos</b> groupes, ils ne sont pas publics."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Avec les <i>Équipes</i>, créez des groupes de personnes avec lesquels vous pouvez partager des données.",
-                    "Les équipes sont accessibles à tous les membres de ce Nextcloud."
-                ]
-            },
-            {
-                "title": "À bientôt !",
-                "paragraphs": [
-                    "Cette visite guidée est maintenant terminée.",
-                    "Vous pouvez accéder aux visites guidées d’autres applications en cliquant ci-dessous :"
-                ]
-            }
+      },
+      {
+        "paragraphs": [
+          "Vous vous êtes connecté·e grâce à un identifiant et un mot de passe.",
+          "Les informations relatives à votre compte sont disponibles en cliquant ici."
         ]
-    },
-    "spreed": {
-        "name": "Discussion",
-        "steps": [
-            {
-                "title": "Bienvenue !",
-                "paragraphs": [
-                    "Le module <i>Discussion</i> permet d’échanger par conversation écrite ou en appel vidéo sans quitter Nextcloud."
-                ],
-                "choices": [
-                    {
-                        "success": false,
-                        "label": "Je ne souhaite pas suivre cette visite"
-                    }
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Retrouvez les conversations déjà existantes ici."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Pour créer une nouvelle discussion de groupe, cliquez sur la bulle."
-                ]
-            },
-            {
-                "paragraphs": [
-                    "Vous pouvez aussi discuter avec une personne en particulier en cherchant son nom dans le champ de recherche."
-                ]
-            },
-            {
-                "title": "À bientôt !",
-                "paragraphs": [
-                    "Cette visite guidée est maintenant terminée.",
-                    "Vous pouvez accéder aux visites guidées d’autres applications en cliquant ci-dessous :"
-                ]
-            }
+      },
+      {
+        "paragraphs": [
+          "Vous pouvez retrouver et modifier vos informations personnelles en cliquant ici."
         ]
-    }
+      },
+      {
+        "paragraphs": [
+          "Vous pouvez aussi retrouver <b>l’ensemble des visites guidées</b> en cliquant sur le bouton <i>Visites guidées</i>.",
+          "Vous pouvez activer et désactiver les visites guidées des applications à tout moment grâce à ce menu."
+        ]
+      },
+      {
+        "title": "À bientôt !",
+        "paragraphs": [
+          "Cette visite guidée est maintenant terminée.",
+          "Vous pouvez accéder aux visites guidées d’autres applications en cliquant ci-dessous :"
+        ]
+      }
+    ]
+  },
+  "files": {
+    "name": "Fichiers",
+    "steps": [
+      {
+        "title": "Bienvenue !",
+        "paragraphs": [
+          "Bienvenue dans la visite guidée de l’application <i>Fichiers</i> qui constitue le cœur de Nextcloud !"
+        ],
+        "choices": [
+          {
+            "success": false,
+            "label": "Je ne souhaite pas suivre cette visite"
+          }
+        ]
+      },
+      {
+        "paragraphs": [
+          "Vous retrouvez au centre votre arborescence avec vos différents dossiers et fichiers."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Avec le bouton <i>Nouveau</i>, vous pouvez <b>ajouter des nouveaux documents et dossiers</b> à votre espace Nextcloud."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Vous pouvez téléverser un fichier depuis votre ordinateur…"
+        ]
+      },
+      {
+        "paragraphs": [
+          "… ou créer un fichier ou un dossier directement dans cet espace."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Le volet latéral permet d’accéder notamment aux <b>fichiers récemment utilisés</b> (<i>Récents</i>) ou à la <b>corbeille</b> (<i>Fichiers supprimés</i>)."
+        ]
+      },
+      {
+        "paragraphs": [
+          "En cliquant sur les trois points, vous aurez l’ensemble des actions possibles pour un document ou un dossier.",
+          "Par exemple : <i>Renommer</i>, <i>Télécharger</i> ou <i>Supprimer</i>."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Les dossiers et fichiers ne sont pas forcément accessibles à d’autres personnes. Vous pouvez partager un fichier, de manière publique ou privée.",
+          "Pour en savoir plus sur les <b>options de partage</b>, cliquez sur l'icone de partage après cette visite."
+        ]
+      },
+      {
+        "title": "À bientôt !",
+        "paragraphs": [
+          "Cette visite guidée est maintenant terminée.",
+          "Vous pouvez accéder aux visites guidées d’autres applications en cliquant ci-dessous :"
+        ]
+      }
+    ]
+  },
+  "files-aside-tab-sharing": {
+    "name": "Partages",
+    "steps": [
+      {
+        "title": "Partager des fichiers",
+        "paragraphs": [
+          "Bienvenue dans la visite guidée de la gestion du partage d'un fichier."
+        ],
+        "choices": [
+          {
+            "success": false,
+            "label": "Je ne souhaite pas suivre cette visite"
+          }
+        ]
+      },
+      {
+        "paragraphs": [
+          "Vous pouvez diffuser un lien de partage aux autres utilisateurs de ce Nextcloud et ainsi leur permettre d’accéder à un de vos fichiers ou dossiers.",
+          "Ce lien ne sera accessible <b>qu'aux personnes qui ont un compte sur ce Nextcloud</b> !"
+        ]
+      },
+      {
+        "paragraphs": [
+          "Il est aussi possible de faire un <b>lien public</b> pour des personnes n’ayant pas de compte sur ce Nextcloud et de définir si la personne peut juste consulter l’élément ou le modifier."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Enfin, il est possible de <b>partager un dossier ou un fichier par mail</b> en écrivant l’adresse de la personne destinataire et en définissant là aussi si la personne peut juste lire l’élément ou le modifier."
+        ]
+      },
+      {
+        "title": "À bientôt !",
+        "paragraphs": ["Cette visite guidée est maintenant terminée."]
+      }
+    ]
+  },
+  "user": {
+    "name": "Personnaliser son profil",
+    "steps": [
+      {
+        "title": "Bienvenue !",
+        "paragraphs": [
+          "Cette section vous permet d'accéder à vos paramètres personnels."
+        ],
+        "choices": [
+          {
+            "success": false,
+            "label": "Je ne souhaite pas suivre cette visite"
+          }
+        ]
+      },
+      {
+        "paragraphs": [
+          "Votre profil est accessible à tout moment en haut à droite. Il donne accès à vos paramètres personnels."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Le menu <i>Informations personnelles</i> vous permet de modifier votre nom, votre image de profil ou encore de préciser votre langue."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Le menu <i>Sécurité</i> vous permet notamment de <b>modifier votre mot de passe</b> en cas de besoin."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Le menu <i>Notifications</i> vous permet de définir si vous souhaitez être informé·e par mail quand certaines activités ont eu lieu sur ce Nextcloud."
+        ]
+      },
+      {
+        "title": "À bientôt !",
+        "paragraphs": [
+          "Cette visite guidée est maintenant terminée.",
+          "Vous pouvez accéder aux visites guidées d’autres applications en cliquant ci-dessous :"
+        ]
+      }
+    ]
+  },
+  "calendar": {
+    "name": "Agenda",
+    "steps": [
+      {
+        "title": "Bienvenue !",
+        "paragraphs": [
+          "L'application <i>Agenda</i> vous permet de gérer vos évènements."
+        ],
+        "choices": [
+          {
+            "success": false,
+            "label": "Je ne souhaite pas suivre cette visite"
+          }
+        ]
+      },
+      {
+        "paragraphs": [
+          "Le calendrier central vous informe des événements que vous avez crées ou qui ont été partagés avec vous."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Vous pouvez changer de période grâce à l’indicateur de vue."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Le bouton <i>Auj</i> permet de recentrer la vue sur la journée, la semaine ou le mois en cours."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Les agendas auxquels vous avez accès (les vôtres et ceux qui vous sont partagés) sont listés ici."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Vous pouvez créer un nouvel agenda qui s’ajoutera dans la liste grâce à ce bouton."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Vous pouvez modifier un agenda en cliquant sur l’icône représentant un crayon."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Vous pouvez partager un agenda avec un autre utilisateur, un groupe ou bien par lien public."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Vous pouvez créer un nouvel événement et l'ajouter à l’un des agendas."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Il est possible <b>d’importer un évènement issu d’un autre calendrier</b> (par exemple à partir d’un fichier de type .ics) en cliquant sur <i>Paramètres de agenda</i>, puis <i>Importer un agenda</i>."
+        ]
+      },
+      {
+        "title": "À bientôt !",
+        "paragraphs": [
+          "Cette visite guidée est maintenant terminée.",
+          "Vous pouvez accéder aux visites guidées d’autres applications en cliquant ci-dessous :"
+        ]
+      }
+    ]
+  },
+  "contacts": {
+    "name": "Contacts",
+    "steps": [
+      {
+        "title": "Bienvenue !",
+        "paragraphs": [
+          "L’application <i>Contacts</i> vous permet d’enregistrer vos contacts personnels. Par défaut, personne d’autre que vous ne peut y accéder."
+        ],
+        "choices": [
+          {
+            "success": false,
+            "label": "Je ne souhaite pas suivre cette visite"
+          }
+        ]
+      },
+      {
+        "paragraphs": [
+          "Pour ajouter un contact, cliquez ici et ajoutez son nom et ses coordonnées."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Vous pouvez aussi <b>importer un répertoire</b> depuis un autre logiciel dans la rubrique <i>Paramètres de Contacts</i>.",
+          "Il est aussi possible de créer d'autres carnets d'adresses ou bien de les partager avec d'autres utilisateurs."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Avec les groupes, organisez vos contacts comme vous l’entendez.",
+          "Ces groupes sont <b>vos</b> groupes, ils ne sont pas publics."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Avec les <i>Équipes</i>, créez des groupes de personnes avec lesquels vous pouvez partager des données.",
+          "Les équipes sont accessibles à tous les membres de ce Nextcloud."
+        ]
+      },
+      {
+        "title": "À bientôt !",
+        "paragraphs": [
+          "Cette visite guidée est maintenant terminée.",
+          "Vous pouvez accéder aux visites guidées d’autres applications en cliquant ci-dessous :"
+        ]
+      }
+    ]
+  },
+  "spreed": {
+    "name": "Discussion",
+    "steps": [
+      {
+        "title": "Bienvenue !",
+        "paragraphs": [
+          "Le module <i>Discussion</i> permet d’échanger par conversation écrite ou en appel vidéo sans quitter Nextcloud."
+        ],
+        "choices": [
+          {
+            "success": false,
+            "label": "Je ne souhaite pas suivre cette visite"
+          }
+        ]
+      },
+      {
+        "paragraphs": ["Retrouvez les conversations déjà existantes ici."]
+      },
+      {
+        "paragraphs": [
+          "Pour créer une nouvelle discussion de groupe, cliquez sur la bulle."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Vous pouvez aussi discuter avec une personne en particulier en cherchant son nom dans le champ de recherche."
+        ]
+      },
+      {
+        "title": "À bientôt !",
+        "paragraphs": [
+          "Cette visite guidée est maintenant terminée.",
+          "Vous pouvez accéder aux visites guidées d’autres applications en cliquant ci-dessous :"
+        ]
+      }
+    ]
+  },
+  "deck": {
+    "name": "Deck",
+    "steps": [
+      {
+        "title": "Bienvenue dans Deck !",
+        "paragraphs": [
+          "Bienvenue dans <strong>Deck</strong>, l'application de gestion de projet intégrée à Nextcloud !",
+          "<br>",
+          "Deck utilise la <strong>méthode Kanban</strong> pour vous aider à organiser vos projets et tâches de manière visuelle et efficace.",
+          "<br>",
+          "Cliquez sur <strong>Terminé</strong> pour découvrir un tableau et ses fonctionnalités."
+        ],
+        "choices": [
+          {
+            "success": false,
+            "label": "Passer ce tutoriel"
+          }
+        ]
+      },
+      {
+        "title": "Navigation des tableaux",
+        "paragraphs": [
+          "Dans le panneau de navigation à gauche, vous retrouvez <strong>tous vos tableaux</strong> organisés par projet.",
+          "<br>",
+          "Chaque tableau représente un <strong>projet distinct</strong> avec ses propres équipes, tâches et workflow."
+        ]
+      },
+      {
+        "title": "Vue d'ensemble du tableau",
+        "paragraphs": [
+          "Voici la <strong>zone principale</strong> où s'affichent toutes les colonnes (piles) de votre tableau actuel.",
+          "<br>",
+          "C'est ici que vous visualisez l'avancement de votre projet en un coup d'œil."
+        ]
+      },
+      {
+        "title": "Actions du tableau",
+        "paragraphs": [
+          "Cette barre d'outils vous permet de :",
+          "• <strong>Partager</strong> le tableau avec d'autres utilisateurs",
+          "• <strong>Gérer les permissions</strong> (lecture, écriture, administration)",
+          "• <strong>Configurer</strong> les paramètres du tableau",
+          "• <strong>Archiver</strong> ou supprimer le tableau"
+        ]
+      },
+      {
+        "title": "Les piles (colonnes)",
+        "paragraphs": [
+          "Les <strong>piles</strong> représentent les différentes <strong>étapes de votre workflow</strong>.",
+          "<br>",
+          "Typiquement : « À faire », « En cours », « En attente », « Terminé »."
+        ]
+      },
+      {
+        "title": "Titre des piles",
+        "paragraphs": [
+          "Chaque pile a un <strong>titre personnalisable</strong> qui décrit l'étape du processus.",
+          "<br>",
+          "Vous pouvez <strong>cliquer sur le titre</strong> pour le modifier et adapter le workflow à vos besoins."
+        ]
+      },
+      {
+        "title": "Les cartes (tâches)",
+        "paragraphs": [
+          "Chaque <strong>carte représente une tâche</strong> avec :",
+          "• Un <strong>titre</strong> et une description",
+          "• Des <strong>étiquettes colorées</strong> pour la catégorisation",
+          "• Des <strong>échéances</strong> et priorités",
+          "• Des <strong>assignations</strong> aux membres de l'équipe"
+        ]
+      },
+      {
+        "title": "Maîtrisez Deck !",
+        "paragraphs": [
+          "Vous avez maintenant toutes les clés pour utiliser <strong>Deck efficacement</strong> !",
+          "<br>",
+          "N'hésitez pas à expérimenter avec les <strong>workflows</strong>, <strong>étiquettes</strong> et <strong>assignations</strong> pour adapter l'outil à votre méthode de travail.",
+          "<br>",
+          "Découvrez également les autres applications Nextcloud :"
+        ]
+      }
+    ]
+  },
+  "forms": {
+    "name": "Formulaires",
+    "steps": [
+      {
+        "title": "Bienvenue !",
+        "paragraphs": [
+          "Le module <i>Formulaires</i> permet de créer et de gérer des formulaires au sein de votre instance Nextcloud."
+        ],
+        "choices": [
+          {
+            "success": false,
+            "label": "Je ne souhaite pas suivre cette visite"
+          }
+        ]
+      },
+      {
+        "img": "./img/form_01.png",
+        "paragraphs": [
+          "Avec Forms, vous pouvez créer autant de formulaires que vous souhaitez : Il n’y a pas de limite quant au nombre de formulaires que vous pouvez créer ou de questions que vous pouvez poser, ni aux liens que vous pouvez partager ou au nombre de personnes qui peuvent y répondre."
+        ]
+      },
+      {
+        "img": "./img/form_02.png",
+        "paragraphs": [
+          "De plus, vous pouvez partager vos formulaires avec autant de personnes que vous le souhaitez, qu’elles soient membres, adhérentes ou même extérieures à votre association. Il suffit de cliquer sur le « + » en face de lien de partage puis de cliquer sur le rectangle pour copier l’adresse à laquelle vos interlocuteurs pourront accéder au formulaire."
+        ]
+      },
+      {
+        "img": "./img/form_03.png",
+        "paragraphs": [
+          "En outre, La force de l’application Forms réside dans le fait qu’elle vous laisse la liberté de choisir le format que vous désirez des réponses de vos utilisateurs : vos utilisateurs peuvent cocher des cases, rédiger des réponses courtes, rédiger des textes longs...."
+        ]
+      },
+      {
+        "img": "./img/form_04.png",
+        "paragraphs": [
+          "Enfin, vous pouvez facilement analyser et partager les résultats à l’aide de graphiques, que vous pouvez réutiliser dans vos bilans, rapports ou tout autre documents ayant trait à votre association. De plus, vous pouvez exportez vos données au format CSV ou XLSX utilisables au sein de tableurs tels qu’OnlyOffice, LibreOffice ou encore Excel.."
+        ]
+      },
+      {
+        "title": "À bientôt !",
+        "paragraphs": [
+          "Cette visite guidée est maintenant terminée.",
+          "Vous pouvez rejouer cette visite guidée autant de fois que vous le désirez en cliquant sur le curseur : Rejouez cette visite la prochaine fois"
+        ]
+      }
+    ]
+  }
 }
