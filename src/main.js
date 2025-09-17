@@ -21,7 +21,7 @@
  */
 
 import './style.scss'
-import { IntroManager, AsideIntroManager } from './introManager.js'
+import { IntroManager, AsideIntroManager, DeckIntroManager } from './introManager.js'
 import { getCurrentLanguageIntro, getIntrosStructure, mergeIntrosAndStructure } from './utils.js'
 import { loadState } from '@nextcloud/initial-state'
 
@@ -56,7 +56,20 @@ window.onload = async () => {
 	})
 
 	setTimeout(() => {
-		new IntroManager(app, intros).run()
+		// Utiliser DeckIntroManager spécialement pour l'application Deck
+		if (app === 'deck') {
+			const deckManager = new DeckIntroManager(app, intros)
+			
+			// Vérifier si on doit continuer le tutoriel après redirection
+			if (DeckIntroManager.shouldContinueIntro()) {
+				deckManager.continueIntroOnBoard()
+			} else {
+				deckManager.run()
+			}
+		} else {
+			new IntroManager(app, intros).run()
+		}
+		
 		for (const aside of tabAsides) {
 			new AsideIntroManager(aside, intros, true).runAside()
 		}

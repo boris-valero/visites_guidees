@@ -94,9 +94,7 @@
                 ]
             },
             {
-                "paragraphs": [
-                    "Lade eine Datei von deinem Computer hoch…"
-                ]
+                "paragraphs": ["Lade eine Datei von deinem Computer hoch…"]
             },
             {
                 "paragraphs": [
@@ -133,9 +131,7 @@
         "steps": [
             {
                 "title": "Dateien teilen",
-                "paragraphs": [
-                    "Willkommen im Tutorial zum Teilen von Dateien."
-                ],
+                "paragraphs": ["Willkommen im Tutorial zum Teilen von Dateien."],
                 "choices": [
                     {
                         "success": false,
@@ -161,9 +157,7 @@
             },
             {
                 "title": "Bis bald!",
-                "paragraphs": [
-                    "Das ist das Ende dieses Tutorials."
-                ]
+                "paragraphs": ["Das ist das Ende dieses Tutorials."]
             }
         ]
     },
@@ -216,9 +210,7 @@
         "steps": [
             {
                 "title": "Willkommen!",
-                "paragraphs": [
-                    "Organisiere deine Ereignisse in der Kalender-App."
-                ],
+                "paragraphs": ["Organisiere deine Ereignisse in der Kalender-App."],
                 "choices": [
                     {
                         "success": false,
@@ -296,9 +288,7 @@
                 ]
             },
             {
-                "paragraphs": [
-                    "Klicke hier, um einen Kontakt hinzuzufügen."
-                ]
+                "paragraphs": ["Klicke hier, um einen Kontakt hinzuzufügen."]
             },
             {
                 "paragraphs": [
@@ -342,14 +332,10 @@
                 ]
             },
             {
-                "paragraphs": [
-                    "Hier findest du deine bestehenden Gespräche."
-                ]
+                "paragraphs": ["Hier findest du deine bestehenden Gespräche."]
             },
             {
-                "paragraphs": [
-                    "Erstelle einen neuen Gruppenchat mit diesem Button."
-                ]
+                "paragraphs": ["Erstelle einen neuen Gruppenchat mit diesem Button."]
             },
             {
                 "paragraphs": [
@@ -364,5 +350,82 @@
                 ]
             }
         ]
-    }
+    },
+  "deck": {
+    "name": "Deck",
+    "steps": [
+      {
+        "title": "Willkommen!",
+        "paragraphs": [
+          "Willkommen beim Tutorial der Deck-App, Ihrer Projektmanagementlösung in Nextcloud!"
+        ],
+        "choices": [
+          {
+            "success": false,
+            "label": "Dieses Tutorial überspringen"
+          }
+        ]
+      },
+      {
+        "title": "Navigation der Boards",
+        "paragraphs": [
+          "Im Navigationsbereich links findest du <strong>alle deine Boards</strong>, nach Projekten organisiert.",
+          "<br>",
+          "Jedes Board steht für ein <strong>eigenständiges Projekt</strong> mit eigenen Teams, Aufgaben und Workflows."
+        ]
+      },
+      {
+        "title": "Board-Übersicht",
+        "paragraphs": [
+          "Dies ist der <strong>Hauptbereich</strong>, in dem alle Spalten (Stacks) deines aktuellen Boards angezeigt werden.",
+          "<br>",
+          "Hier kannst du den Fortschritt deines Projekts auf einen Blick sehen."
+        ]
+      },
+      {
+        "title": "Board-Aktionen",
+        "paragraphs": [
+          "Mit dieser Werkzeugleiste kannst du:",
+          "• das Board mit anderen Nutzern <strong>teilen</strong>",
+          "• die <strong>Berechtigungen</strong> verwalten (Lesen, Schreiben, Administration)",
+          "• die <strong>Board-Einstellungen</strong> konfigurieren",
+          "• das Board <strong>archivieren</strong> oder löschen"
+        ]
+      },
+      {
+        "title": "Die Spalten (Stacks)",
+        "paragraphs": [
+          "Die <strong>Spalten</strong> stehen für die verschiedenen <strong>Phasen deines Workflows</strong>.",
+          "<br>",
+          "Typischerweise: „Zu erledigen“, „In Arbeit“, „Wartend“, „Erledigt“."
+        ]
+      },
+      {
+        "title": "Spaltentitel",
+        "paragraphs": [
+          "Jede Spalte hat einen <strong>anpassbaren Titel</strong>, der den Schritt im Prozess beschreibt.",
+          "<br>",
+          "Du kannst <strong>auf den Titel klicken</strong>, um ihn zu bearbeiten und den Workflow an deine Bedürfnisse anzupassen."
+        ]
+      },
+      {
+        "title": "Die Karten (Aufgaben)",
+        "paragraphs": [
+          "Jede <strong>Karte steht für eine Aufgabe</strong> mit:",
+          "• einem <strong>Titel</strong> und einer Beschreibung",
+          "• <strong>farbigen Labels</strong> zur Kategorisierung",
+          "• <strong>Fälligkeiten</strong> und Prioritäten",
+          "• <strong>Zuweisungen</strong> an Teammitglieder"
+        ]
+      },
+      {
+        "title": "Bis bald!",
+        "paragraphs": [
+          "Dies ist das Ende dieses App-Tutorials.",
+          "Du kannst Tutorials zu anderen Apps mit den folgenden Schaltflächen folgen:"
+        ]
+      }
+    ]
+  }
 }
+

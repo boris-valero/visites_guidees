@@ -1,476 +1,450 @@
 {
-  "dashboard": {
-    "name": "Dashboard",
-    "steps": [
-      {
-        "title": "Welcome!",
-        "paragraphs": [
-          "Welcome to Nextcloud's dashboard.",
-          "<br>",
-          "Would you like to follow a short tutorial to learn how to use Nextcloud?"
-        ],
-        "choices": [
-          {
-            "success": false,
-            "label": "No"
-          },
-          {
-            "success": true,
-            "label": "Yes"
-          }
+    "dashboard": {
+        "name": "Dashboard",
+        "steps": [
+            {
+                "title": "Welcome!",
+                "paragraphs": [
+                    "Welcome to Nextcloud's dashboard.",
+                    "<br>",
+                    "Would you like to follow a short tutorial to learn how to use Nextcloud?"
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "No"
+                    },
+                    {
+                        "success": true,
+                        "label": "Yes"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can find the <b>recent activities</b> of your Nextcloud server on the dashboard."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "The <b>recommended files</b> section shows this Nextcloud's recently created or modified files.",
+                    "<br>",
+                    "The <b>upcoming events</b> are the events on the calendars you have access to."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Click 'Customize' to <b>add or remove elements</b> to the Dashbboard.",
+                    "This will only affect <b>your</b> Nextcloud interface. It won't have any effect on other users!"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Find this Nextcloud's installed apps here."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You logged in with a user name and password. <b>You can find your profile here.</b>"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Change your account's personal information here."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can find <b>every available tutorial</b> by clicking on the 'intros' button.",
+                    "You can enable or disable the tutorial of any app with this menu."
+                ]
+            },
+            {
+                "title": "See you!",
+                "paragraphs": [
+                    "This is the end of this app's tutorial.",
+                    "You can follow other apps' tutorials with the following buttons:"
+                ]
+            }
         ]
-      },
-      {
-        "paragraphs": [
-          "You can find the <b>recent activities</b> of your Nextcloud server on the dashboard."
+    },
+    "files": {
+        "name": "Files",
+        "steps": [
+            {
+                "title": "Welcome!",
+                "paragraphs": [
+                    "Welcome to the tutorial of the files app, the core of your Nextcloud experience!"
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Skip this tutorial"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can find all your files and folders at the center of this page."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "The 'new' button allows you to <b>add new elements</b> to your Nextcloud server."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Upload a file from your computer…"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "… or create a file or folder from the Nextcloud interface right away."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Some shortcuts are available on the side, including the <b>recent files</b> and the <b>deleted files</b>."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Click on the three dots to interact with the selected file or folder."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Files and folders aren't shared by default, but you can share them publicly or to this Nextcloud's users.",
+                    "Click on the share button to find out more about the <b>sharing options</b> after this tutorial is over."
+                ]
+            },
+            {
+                "title": "See you!",
+                "paragraphs": [
+                    "This is the end of this app's tutorial.",
+                    "You can follow other apps' tutorials with the following buttons:"
+                ]
+            }
         ]
-      },
-      {
-        "paragraphs": [
-          "The <b>recommended files</b> section shows this Nextcloud's recently created or modified files.",
-          "<br>",
-          "The <b>upcoming events</b> are the events on the calendars you have access to."
+    },
+    "files-aside-tab-sharing": {
+        "name": "Shares",
+        "steps": [
+            {
+                "title": "Sharing files",
+                "paragraphs": [
+                    "Welcome to the file sharing tutorial."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Skip this tutorial"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can create an internal sharing link to share a file or folder to this Nextcloud's other users.",
+                    "This link will <b>only be accessible to people who have an account on this Nextcloud server</b> !"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can also create a <b>public link</b> to share a file or folder to anyone on the Internet. You can choose whether they can only see the resource, or modify it as well."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "<b>To share a file or folder via e-mail</b>, provide the e-mail address of the person you want to share this file or folder to, and choose their permissions on the resource."
+                ]
+            },
+            {
+                "title": "See you!",
+                "paragraphs": [
+                    "This is the end of this tutorial."
+                ]
+            }
         ]
-      },
-      {
-        "paragraphs": [
-          "Click 'Customize' to <b>add or remove elements</b> to the Dashbboard.",
-          "This will only affect <b>your</b> Nextcloud interface. It won't have any effect on other users!"
+    },
+    "user": {
+        "name": "User profile",
+        "steps": [
+            {
+                "title": "Welcome!",
+                "paragraphs": [
+                    "This section gives you access to your personal information."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Skip this tutorial"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Your profile is always accessible in the top-right corner. You can access your personal information from there."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can change your name, profile picture or language in the 'personal info' section."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "The 'security' section allows you to <b>change your password</b>."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Define whether you want to receive e-mails when something is happening on this Nextcloud in the 'notifications' section."
+                ]
+            },
+            {
+                "title": "See you!",
+                "paragraphs": [
+                    "This is the end of this app's tutorial.",
+                    "You can follow other apps' tutorials with the following buttons:"
+                ]
+            }
         ]
-      },
-      {
-        "paragraphs": ["Find this Nextcloud's installed apps here."]
-      },
-      {
-        "paragraphs": [
-          "You logged in with a user name and password. <b>You can find your profile here.</b>"
+    },
+    "calendar": {
+        "name": "Calendar",
+        "steps": [
+            {
+                "title": "Welcome!",
+                "paragraphs": [
+                    "Organize your events in the calendar app."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Skip this tutorial"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "The central calendar shows all the events that are shared with you or that you have created yourself."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can change the period's length in this menu."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "The 'Today' button centers the calendar on the current day, week or month."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Calendars you have access to (created by you or shared to you) are available here."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Create a new calendar to add it to the list with this button."
+                ]
+            },
+			{
+				"paragraphs": [
+					"You can edit a calendar by clicking on the pencil icon."
+				]
+			},
+            {
+                "paragraphs": [
+                    "You can share a calendar with another user, a group or via a public link."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can create a new event and add it to a calendar here."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can <b>import events from another calendar</b> (e.g. from a .ics file) with the 'import calendar' button in the calendar settings."
+                ]
+            },
+            {
+                "title": "See you!",
+                "paragraphs": [
+                    "This is the end of this app's tutorial.",
+                    "You can follow other apps' tutorials with the following buttons:"
+                ]
+            }
         ]
-      },
-      {
-        "paragraphs": ["Change your account's personal information here."]
-      },
-      {
-        "paragraphs": [
-          "You can find <b>every available tutorial</b> by clicking on the 'intros' button.",
-          "You can enable or disable the tutorial of any app with this menu."
+    },
+    "contacts": {
+        "name": "Contacts",
+        "steps": [
+            {
+                "title": "Welcome!",
+                "paragraphs": [
+                    "Store your personal contacts in the Contacts app. Other users won't have access to them by default."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Skip this tutorial"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Click here to add a contact."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can also <b>import a set of contacts</b> from another application in the Contacts settings."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Organize your contacts with Contacts groups.",
+                    "These are <b>your</b> groups, they are not public."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "With Circles, create groups of people whom you can share data with.",
+                    "Circles are public within this Nextcloud server."
+                ]
+            },
+            {
+                "title": "See you!",
+                "paragraphs": [
+                    "This is the end of this app's tutorial.",
+                    "You can follow other apps' tutorials with the following buttons:"
+                ]
+            }
         ]
-      },
-      {
-        "title": "See you!",
-        "paragraphs": [
-          "This is the end of this app's tutorial.",
-          "You can follow other apps' tutorials with the following buttons:"
+    },
+    "spreed": {
+        "name": "Talk",
+        "steps": [
+            {
+                "title": "Welcome!",
+                "paragraphs": [
+                    "The Talk app allows you to chat or video call with others in Nextcloud."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Skip this tutorial"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Find your existing conversations here."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Create a new group chat with this button."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can also choose to chat with someone by searching their name in the search bar."
+                ]
+            },
+            {
+                "title": "See you!",
+                "paragraphs": [
+                    "This is the end of this app's tutorial.",
+                    "You can follow other apps' tutorials with the following buttons:"
+                ]
+            }
         ]
-      }
-    ]
-  },
-  "files": {
-    "name": "Files",
-    "steps": [
-      {
-        "title": "Welcome!",
-        "paragraphs": [
-          "Welcome to the tutorial of the files app, the core of your Nextcloud experience!"
-        ],
-        "choices": [
-          {
-            "success": false,
-            "label": "Skip this tutorial"
-          }
+    },
+    "deck": {
+        "name": "Deck",
+        "steps": [
+            {
+                "title": "Welcome to Deck!",
+                "paragraphs": [
+                    "Welcome to <strong>Deck</strong>, the integrated project management application in Nextcloud!",
+                    "<br>",
+                    "Deck uses the <strong>Kanban method</strong> to help you organize your projects and tasks visually and efficiently."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Skip this tutorial"
+                    }
+                ]
+            },
+            {
+                "title": "Board navigation",
+                "paragraphs": [
+                    "In the left navigation panel, you'll find <strong>all your boards</strong> organized by project.",
+                    "<br>",
+                    "Each board represents a <strong>distinct project</strong> with its own teams, tasks, and workflow."
+                ]
+            },
+            {
+                "title": "Board overview",
+                "paragraphs": [
+                    "This is the <strong>main area</strong> where all the columns (stacks) of your current board are displayed.",
+                    "<br>",
+                    "Here you can visualize your project's progress at a glance."
+                ]
+            },
+            {
+                "title": "Board actions",
+                "paragraphs": [
+                    "This toolbar allows you to:",
+                    "• <strong>Share</strong> the board with other users",
+                    "• <strong>Manage permissions</strong> (read, write, admin)",
+                    "• <strong>Configure</strong> board settings",
+                    "• <strong>Archive</strong> or delete the board"
+                ]
+            },
+            {
+                "title": "Stacks (columns)",
+                "paragraphs": [
+                    "<strong>Stacks</strong> represent the different <strong>stages of your workflow</strong>.",
+                    "<br>",
+                    "Typically: \"To do\", \"In progress\", \"Waiting\", \"Done\"."
+                ]
+            },
+            {
+                "title": "Stack titles",
+                "paragraphs": [
+                    "Each stack has a <strong>customizable title</strong> that describes the process stage.",
+                    "<br>",
+                    "You can <strong>click on the title</strong> to modify it and adapt the workflow to your needs."
+                ]
+            },
+            {
+                "title": "Cards (tasks)",
+                "paragraphs": [
+                    "Each <strong>card represents a task</strong> with:",
+                    "• A <strong>title</strong> and description",
+                    "• <strong>Colored labels</strong> for categorization",
+                    "• <strong>Due dates</strong> and priorities",
+                    "• <strong>Assignments</strong> to team members"
+                ]
+            },
+            {
+                "title": "Master Deck!",
+                "paragraphs": [
+                    "You now have all the keys to use <strong>Deck effectively</strong>!",
+                    "<br>",
+                    "Feel free to experiment with <strong>workflows</strong>, <strong>labels</strong>, and <strong>assignments</strong> to adapt the tool to your working method.",
+                    "<br>",
+                    "Also discover other Nextcloud applications:"
+                ]
+            }
         ]
-      },
-      {
-        "paragraphs": [
-          "You can find all your files and folders at the center of this page."
-        ]
-      },
-      {
-        "paragraphs": [
-          "The 'new' button allows you to <b>add new elements</b> to your Nextcloud server."
-        ]
-      },
-      {
-        "paragraphs": ["Upload a file from your computer…"]
-      },
-      {
-        "paragraphs": [
-          "… or create a file or folder from the Nextcloud interface right away."
-        ]
-      },
-      {
-        "paragraphs": [
-          "Some shortcuts are available on the side, including the <b>recent files</b> and the <b>deleted files</b>."
-        ]
-      },
-      {
-        "paragraphs": [
-          "Click on the three dots to interact with the selected file or folder."
-        ]
-      },
-      {
-        "paragraphs": [
-          "Files and folders aren't shared by default, but you can share them publicly or to this Nextcloud's users.",
-          "Click on the share button to find out more about the <b>sharing options</b> after this tutorial is over."
-        ]
-      },
-      {
-        "title": "See you!",
-        "paragraphs": [
-          "This is the end of this app's tutorial.",
-          "You can follow other apps' tutorials with the following buttons:"
-        ]
-      }
-    ]
-  },
-  "files-aside-tab-sharing": {
-    "name": "Shares",
-    "steps": [
-      {
-        "title": "Sharing files",
-        "paragraphs": ["Welcome to the file sharing tutorial."],
-        "choices": [
-          {
-            "success": false,
-            "label": "Skip this tutorial"
-          }
-        ]
-      },
-      {
-        "paragraphs": [
-          "You can create an internal sharing link to share a file or folder to this Nextcloud's other users.",
-          "This link will <b>only be accessible to people who have an account on this Nextcloud server</b> !"
-        ]
-      },
-      {
-        "paragraphs": [
-          "You can also create a <b>public link</b> to share a file or folder to anyone on the Internet. You can choose whether they can only see the resource, or modify it as well."
-        ]
-      },
-      {
-        "paragraphs": [
-          "<b>To share a file or folder via e-mail</b>, provide the e-mail address of the person you want to share this file or folder to, and choose their permissions on the resource."
-        ]
-      },
-      {
-        "title": "See you!",
-        "paragraphs": ["This is the end of this tutorial."]
-      }
-    ]
-  },
-  "user": {
-    "name": "User profile",
-    "steps": [
-      {
-        "title": "Welcome!",
-        "paragraphs": [
-          "This section gives you access to your personal information."
-        ],
-        "choices": [
-          {
-            "success": false,
-            "label": "Skip this tutorial"
-          }
-        ]
-      },
-      {
-        "paragraphs": [
-          "Your profile is always accessible in the top-right corner. You can access your personal information from there."
-        ]
-      },
-      {
-        "paragraphs": [
-          "You can change your name, profile picture or language in the 'personal info' section."
-        ]
-      },
-      {
-        "paragraphs": [
-          "The 'security' section allows you to <b>change your password</b>."
-        ]
-      },
-      {
-        "paragraphs": [
-          "Define whether you want to receive e-mails when something is happening on this Nextcloud in the 'notifications' section."
-        ]
-      },
-      {
-        "title": "See you!",
-        "paragraphs": [
-          "This is the end of this app's tutorial.",
-          "You can follow other apps' tutorials with the following buttons:"
-        ]
-      }
-    ]
-  },
-  "calendar": {
-    "name": "Calendar",
-    "steps": [
-      {
-        "title": "Welcome!",
-        "paragraphs": ["Organize your events in the calendar app."],
-        "choices": [
-          {
-            "success": false,
-            "label": "Skip this tutorial"
-          }
-        ]
-      },
-      {
-        "paragraphs": [
-          "The central calendar shows all the events that are shared with you or that you have created yourself."
-        ]
-      },
-      {
-        "paragraphs": ["You can change the period's length in this menu."]
-      },
-      {
-        "paragraphs": [
-          "The 'Today' button centers the calendar on the current day, week or month."
-        ]
-      },
-      {
-        "paragraphs": [
-          "Calendars you have access to (created by you or shared to you) are available here."
-        ]
-      },
-      {
-        "paragraphs": [
-          "Create a new calendar to add it to the list with this button."
-        ]
-      },
-      {
-        "paragraphs": [
-          "You can edit a calendar by clicking on the pencil icon."
-        ]
-      },
-      {
-        "paragraphs": [
-          "You can share a calendar with another user, a group or via a public link."
-        ]
-      },
-      {
-        "paragraphs": [
-          "You can create a new event and add it to a calendar here."
-        ]
-      },
-      {
-        "paragraphs": [
-          "You can <b>import events from another calendar</b> (e.g. from a .ics file) with the 'import calendar' button in the calendar settings."
-        ]
-      },
-      {
-        "title": "See you!",
-        "paragraphs": [
-          "This is the end of this app's tutorial.",
-          "You can follow other apps' tutorials with the following buttons:"
-        ]
-      }
-    ]
-  },
-  "contacts": {
-    "name": "Contacts",
-    "steps": [
-      {
-        "title": "Welcome!",
-        "paragraphs": [
-          "Store your personal contacts in the Contacts app. Other users won't have access to them by default."
-        ],
-        "choices": [
-          {
-            "success": false,
-            "label": "Skip this tutorial"
-          }
-        ]
-      },
-      {
-        "paragraphs": ["Click here to add a contact."]
-      },
-      {
-        "paragraphs": [
-          "You can also <b>import a set of contacts</b> from another application in the Contacts settings."
-        ]
-      },
-      {
-        "paragraphs": [
-          "Organize your contacts with Contacts groups.",
-          "These are <b>your</b> groups, they are not public."
-        ]
-      },
-      {
-        "paragraphs": [
-          "With Circles, create groups of people whom you can share data with.",
-          "Circles are public within this Nextcloud server."
-        ]
-      },
-      {
-        "title": "See you!",
-        "paragraphs": [
-          "This is the end of this app's tutorial.",
-          "You can follow other apps' tutorials with the following buttons:"
-        ]
-      }
-    ]
-  },
-  "spreed": {
-    "name": "Talk",
-    "steps": [
-      {
-        "title": "Welcome!",
-        "paragraphs": [
-          "The Talk app allows you to chat or video call with others in Nextcloud."
-        ],
-        "choices": [
-          {
-            "success": false,
-            "label": "Skip this tutorial"
-          }
-        ]
-      },
-      {
-        "paragraphs": ["Find your existing conversations here."]
-      },
-      {
-        "paragraphs": ["Create a new group chat with this button."]
-      },
-      {
-        "paragraphs": [
-          "You can also choose to chat with someone by searching their name in the search bar."
-        ]
-      },
-      {
-        "title": "See you!",
-        "paragraphs": [
-          "This is the end of this app's tutorial.",
-          "You can follow other apps' tutorials with the following buttons:"
-        ]
-      }
-    ]
-  },
-  "deck": {
-    "name": "Deck",
-    "steps": [
-      {
-        "title": "Welcome to Deck!",
-        "paragraphs": [
-          "Welcome to <strong>Deck</strong>, the integrated project management application in Nextcloud!",
-          "<br>",
-          "Deck uses the <strong>Kanban method</strong> to help you organize your projects and tasks visually and efficiently."
-        ],
-        "choices": [
-          {
-            "success": false,
-            "label": "Skip this tutorial"
-          }
-        ]
-      },
-      {
-        "title": "Board navigation",
-        "paragraphs": [
-          "In the left navigation panel, you'll find <strong>all your boards</strong> organized by project.",
-          "<br>",
-          "Each board represents a <strong>distinct project</strong> with its own teams, tasks, and workflow."
-        ]
-      },
-      {
-        "title": "Board overview",
-        "paragraphs": [
-          "This is the <strong>main area</strong> where all the columns (stacks) of your current board are displayed.",
-          "<br>",
-          "Here you can visualize your project's progress at a glance."
-        ]
-      },
-      {
-        "title": "Board actions",
-        "paragraphs": [
-          "This toolbar allows you to:",
-          "• <strong>Share</strong> the board with other users",
-          "• <strong>Manage permissions</strong> (read, write, admin)",
-          "• <strong>Configure</strong> board settings",
-          "• <strong>Archive</strong> or delete the board"
-        ]
-      },
-      {
-        "title": "Stacks (columns)",
-        "paragraphs": [
-          "<strong>Stacks</strong> represent the different <strong>stages of your workflow</strong>.",
-          "<br>",
-          "Typically: \"To do\", \"In progress\", \"Waiting\", \"Done\"."
-        ]
-      },
-      {
-        "title": "Stack titles",
-        "paragraphs": [
-          "Each stack has a <strong>customizable title</strong> that describes the process stage.",
-          "<br>",
-          "You can <strong>click on the title</strong> to modify it and adapt the workflow to your needs."
-        ]
-      },
-      {
-        "title": "Cards (tasks)",
-        "paragraphs": [
-          "Each <strong>card represents a task</strong> with:",
-          "• A <strong>title</strong> and description",
-          "• <strong>Colored labels</strong> for categorization",
-          "• <strong>Due dates</strong> and priorities",
-          "• <strong>Assignments</strong> to team members"
-        ]
-      },
-      {
-        "title": "Master Deck!",
-        "paragraphs": [
-          "You now have all the keys to use <strong>Deck effectively</strong>!",
-          "<br>",
-          "Feel free to experiment with <strong>workflows</strong>, <strong>labels</strong>, and <strong>assignments</strong> to adapt the tool to your working method.",
-          "<br>",
-          "Also discover other Nextcloud applications:"
-        ]
-      }
-    ]
-  },
-  "forms": {
-    "name": "Forms",
-    "steps": [
-      {
-        "title": "Welcome to Forms!",
-        "paragraphs": [
-          "The <i>Forms</i> module allows you to create and manage forms within your Nextcloud instance."
-        ],
-        "choices": [
-          {
-            "success": false,
-            "label": "Skip this tutorial"
-          }
-        ]
-      },
-      {
-        "img": "./img/form_01.png",
-        "paragraphs": [
-          "With Forms, you can create as many forms as you want: there is no limit to the number of forms you can create, the number of questions you can ask, the number of links you can share, or the number of people who can respond."
-        ]
-      },
-      {
-        "img": "./img/form_02.png",
-        "paragraphs": [
-          "Moreover, you can share your forms with as many people as you wish, whether they are members, associates, or even outside your organization. Simply click on the “+” next to the sharing link, then click on the rectangle to copy the address your contacts can use to access the form."
-        ]
-      },
-      {
-        "img": "./img/form_03.png",
-        "paragraphs": [
-          "Furthermore, the strength of the Forms application lies in the fact that it gives you the freedom to choose the format you want for your users’ responses: your users can check boxes, write short answers, or write long texts."
-        ]
-      },
-      {
-        "img": "./img/form_04.png",
-        "paragraphs": [
-          "Finally, you can easily analyze and share the results using charts, which you can reuse in your reports, summaries, or any other documents related to your organization. In addition, you can export your data in CSV or XLSX format, which can be used in spreadsheet software such as OnlyOffice, LibreOffice, or Excel."
-        ]
-      },
-      {
-        "title": "Master Foms!",
-        "paragraphs": [
-          "You now have all the keys to use <strong>Forms effectively</strong>!. You can replay this tutorial as many times as you like by clicking on the slider: Play this tutorial again next time:"
-        ]
-      }
-    ]
-  }
+    }
 }
+
