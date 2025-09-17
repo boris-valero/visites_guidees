@@ -1,0 +1,364 @@
+{
+    "dashboard": {
+        "name": "Dashboard",
+        "steps": [
+            {
+                "title": "Welcome!",
+                "paragraphs": [
+                    "Welcome to the home page of your organization's Framaspace.",
+                    "<br>",
+                    "Would you like to follow a short tutorial to learn how to use Framaspace?"
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "No"
+                    },
+                    {
+                        "success": true,
+                        "label": "Yes"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "On the <i>Dashboard</i>, you'll find an overview of what happened recently on this Framaspace."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "The <i>Recommended files</i> are this Framaspace's files that have been recently created or modified.",
+                    "<br>",
+                    "The <i>Upcoming events</i> are events on your calendars and those shared with you."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Click <i>Customize</i> to <b>add or remove elements</b> to the Dashbboard.",
+                    "This will only affect <b>your</b> interface. It won't have any effect on other users!"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Find your Framaspace's apps here."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You logged in with a user name and password.",
+                    "Access your account's information with this button."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can find and change your personal information by clicking here."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can find <b>every available tutorial</b> by clicking on the <i>Intros</i> button.",
+                    "You can enable or disable the tutorial of any app with this menu."
+                ]
+            },
+            {
+                "title": "See you!",
+                "paragraphs": [
+                    "This is the end of this app's tutorial.",
+                    "You can follow other apps' tutorials with the following buttons:"
+                ]
+            }
+        ]
+    },
+    "files": {
+        "name": "Files",
+        "steps": [
+            {
+                "title": "Welcome!",
+                "paragraphs": [
+                    "Welcome to the tutorial of the <i>Files</i> app, the core of your Framaspace!"
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Skip this tutorial"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can find all your files and folders at the center of this page."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "The <i>New</i> button allow you to <b>add new files or folders</b> to Framaspace."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Upload a file from your computer to Framaspace..."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "... or create a file or folder from Framaspace right away."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "The side panel gives you access to the <b>recently used files</b> (<i>Recent</i>) or the <b>trashbin</b> (<i>Deleted files</i>)."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Click the three dots to see all the possible actions on a file or folder.",
+                    "For example: <i>Rename</i>, <i>Download</i> or <i>Delete</i>."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Files and folders on Framaspace aren't available to everyone by default.",
+                    "Click on the share button to find out more about the <b>sharing options</b> after this tutorial is over."
+                ]
+            },
+            {
+                "title": "See you!",
+                "paragraphs": [
+                    "This is the end of this app's tutorial.",
+                    "You can follow other apps' tutorials with the following buttons:"
+                ]
+            }
+        ]
+    },
+    "files-aside-tab-sharing": {
+        "name": "Shares",
+        "steps": [
+            {
+                "title": "Sharing files",
+                "paragraphs": [
+                    "Welcome to the file sharing tutorial."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Skip this tutorial"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can create an internal sharing link to share a file or folder to your organization's members.",
+                    "This link will <b>only be accessible to people in your organization</b>!"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can also create a <b>public link</b> for anyone to access, and define whether people can see or modify the element."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "<b>To share a file or folder via e-mail</b>, provide the e-mail address of the person you want to share this file or folder to, and choose whether they can see or modify the element."
+                ]
+            },
+            {
+                "title": "See you!",
+                "paragraphs": [
+                    "This is the end of this tutorial."
+                ]
+            }
+        ]
+    },
+    "user": {
+        "name": "User settings",
+        "steps": [
+            {
+                "title": "Welcome!",
+                "paragraphs": [
+                    "This section gives you access to your personal information."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Skip this tutorial"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Your profile is always accessible in the top-right corner. You can access your <b>personal information</b> from there."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can change your name, profile picture or even your title in your organization in the <i>Personal info</i> menu."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "The <i>Security</i> section allows you to <b>change your password</b> if needed."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "The <i>Notifications</i> allows you to choose if you want to receive emails when there is activity on this Framaspace."
+                ]
+            },
+            {
+                "title": "See you!",
+                "paragraphs": [
+                    "This is the end of this app's tutorial.",
+                    "You can follow other apps' tutorials with the following buttons:"
+                ]
+            }
+        ]
+    },
+    "calendar": {
+        "name": "Calendar",
+        "steps": [
+            {
+                "title": "Welcome!",
+                "paragraphs": [
+                    "Organize your events with your organization's members with the <i>Calendar</i> app."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Skip this tutorial"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "The central calendar shows all the events that are shared with you or that you have created yourself."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can change the period's length in this menu."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "The <i>Today</i> button centers the calendar on the current day, week or month."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Calendars you have access to (created by you or shared to you) are available here."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Create a new calendar to add it to the list with this button."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can share a calendar using the pen icon."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can create a new event and add it to a calendar here."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can <b>import events from another calendar</b> (e.g. from a .ics file) with the <Import calendar</i> button in the Calendar settings."
+                ]
+            },
+            {
+                "title": "See you!",
+                "paragraphs": [
+                    "This is the end of this app's tutorial.",
+                    "You can follow other apps' tutorials with the following buttons:"
+                ]
+            }
+        ]
+    },
+    "contacts": {
+        "name": "Contacts",
+        "steps": [
+            {
+                "title": "Welcome!",
+                "paragraphs": [
+                    "Store your personal contacts in the Contacts app. Other users won't have access to them by default."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Skip this tutorial"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Click here to add a contact and add their name and information."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can also <b>import a set of contacts</b> from another application in the <i>Contacts settings</i>."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Organize your contacts with Contacts groups.",
+                    "These are <b>your</b> groups, they are not public."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "With Circles, create groups of people whom you can share data with (e.g. people in your organization who have access to finance-related files)."
+                ]
+            },
+            {
+                "title": "See you!",
+                "paragraphs": [
+                    "This is the end of this app's tutorial.",
+                    "You can follow other apps' tutorials with the following buttons:"
+                ]
+            }
+        ]
+    },
+    "spreed": {
+        "name": "Talk",
+        "steps": [
+            {
+                "title": "Welcome!",
+                "paragraphs": [
+                    "The <i>Talk</i> app allows you to chat or video call within Framaspace."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Skip this tutorial"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Find your existing conversations here."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Create a new group chat with this button."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can also choose to chat with someone by searching their name in the search bar."
+                ]
+            },
+            {
+                "title": "See you!",
+                "paragraphs": [
+                    "This is the end of this app's tutorial.",
+                    "You can follow other apps' tutorials with the following buttons:"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "dashboard": {
+        "name": "Přehled",
+        "steps": [
+            {
+                "title": "Vítejte!",
+                "paragraphs": [
+                    "Vítejte v Nástěnce Nextcloud.",
+                    "<br>",
+                    "Chcete si projít tímto průvodcem a naučit se tak Nextcloud používat?"
+                ],
+                "choices": [
+                    {
+                        "label": "Ne"
+                    },
+                    {
+                        "label": "Ano",
+                        "success": true
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "<b>Nedávné aktivity</b> svého serveru Nextcloud naleznete na hlavním panelu."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "<b>Sekce doporučených</b> zobrazuje nedávno vytvořené nebo upravené soubory na tomto Nextcloudu.",
+                    "<br>",
+                    "<b>Nadcházející události</b> jsou události v kalendářích, ke kterým máte přístup."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Klikněte na „Přizpůsobit“ k <b>přidání nebo odstranění položek</b> z Nástěnky.",
+                    "Toto ovlivní pouze <b>vaše</b> rozhraní Nextcloudu. Nebude mít žádný vliv na ostatní uživatele!"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Zde najdete aplikace nainstalované na tomto Nextcloudu."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Přihlásili jste se uživatelským jménem a heslem. <b>Zde najdete svůj profil.</b>"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Zde můžete změnit osobní informace o vašem účtu."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Kliknutím na tlačítko „Tutoriály“ najdete <b>každý dostupný tutoriál</b>.",
+                    "Tutoriál jakékoli aplikace můžete povolit nebo zakázat v této nabídce."
+                ]
+            },
+            {
+                "title": "Mějte se!",
+                "paragraphs": [
+                    "Toto je konec tutoriálu této aplikace.",
+                    "Tutoriály dalších aplikací najdete pod následujícími tlačítky:"
+                ]
+            }
+        ]
+    },
+    "files": {
+        "name": "Soubory",
+        "steps": [
+            {
+                "title": "Vítejte!",
+                "paragraphs": [
+                    "Vítejte v návodu k aplikaci Soubory, která je jádrem vaší práce s Nextcloudem!"
+                ],
+                "choices": [
+                    {
+                        "label": "Přeskočit tento návod"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Všechny soubory a složky najdete uprostřed této stránky."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Tlačítko „nový“ umožňuje <b>přidávat nové prvky</b> na server Nextcloud."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Nahrát soubor z počítače…"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "... nebo rovnou vytvořit soubor či složku z rozhraní Nextcloudu."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Někteří zástupci jsou k dispozici na straně, včetně <b>nedávných souborů</b> a <b>smazaných souborů</b>."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Kliknutím na tři tečky můžete s vybraným souborem nebo složkou pracovat."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Soubory a složky nejsou ve výchozím nastavení sdíleny, ale můžete je sdílet veřejně nebo s uživateli služby Nextcloud.",
+                    "Po dokončení tohoto průvodce klikněte na tlačítko sdílení a dozvíte se více <b>předvolbách sdílení</b>."
+                ]
+            },
+            {
+                "title": "Nashledanou!",
+                "paragraphs": [
+                    "Tímto návod k této aplikaci končí.",
+                    "Výukové programy jiných aplikací můžete sledovat pomocí následujících tlačítek:"
+                ]
+            }
+        ]
+    }
+}

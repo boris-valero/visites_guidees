@@ -1,0 +1,368 @@
+{
+    "dashboard": {
+        "name": "Dashboard",
+        "steps": [
+            {
+                "title": "Willkommen!",
+                "paragraphs": [
+                    "Willkommen auf dem Dashboard von Nextcloud.",
+                    "<br>",
+                    "Möchtest du ein kurzes Tutorial folgen, um zu lernen, wie du Nextcloud nutzt?"
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Nein"
+                    },
+                    {
+                        "success": true,
+                        "label": "Ja"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Du findest die <b>aktuellsten Aktivitäten</b> deines Nextcloud-Servers auf dem Dashboard."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Der Bereich <b>empfohlene Dateien</b> zeigt die kürzlich erstellten oder bearbeiteten Dateien in diesem Nextcloud.",
+                    "<br>",
+                    "Die <b>kommenden Ereignisse</b> sind die Ereignisse in den Kalendern, auf die du Zugriff hast."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Klicke auf 'Anpassen', um <b>Elemente zum Dashboard hinzuzufügen oder zu entfernen</b>.",
+                    "Dies betrifft nur <b>deine</b> Nextcloud-Oberfläche und hat keine Auswirkungen auf andere Benutzer!"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Hier findest du die installierten Apps dieses Nextcloud."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Du hast dich mit einem Benutzernamen und Passwort angemeldet. <b>Du findest hier dein Profil.</b>"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Ändere hier die persönlichen Informationen deines Kontos."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Du findest <b>alle verfügbaren Tutorials</b>, indem du auf die 'intros' Schaltfläche klickst.",
+                    "Du kannst das Tutorial jeder App über dieses Menü aktivieren oder deaktivieren."
+                ]
+            },
+            {
+                "title": "Bis bald!",
+                "paragraphs": [
+                    "Das ist das Ende des Tutorials dieser App.",
+                    "Du kannst die Tutorials anderer Apps mit den folgenden Schaltflächen fortsetzen:"
+                ]
+            }
+        ]
+    },
+    "files": {
+        "name": "Dateien",
+        "steps": [
+            {
+                "title": "Willkommen!",
+                "paragraphs": [
+                    "Willkommen im Tutorial der Dateien-App, dem Kern deiner Nextcloud-Erfahrung!"
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Dieses Tutorial überspringen"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Du findest alle deine Dateien und Ordner in der Mitte dieser Seite."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Der 'Neu'-Button ermöglicht es dir, <b>neue Elemente</b> zu deinem Nextcloud-Server hinzuzufügen."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Lade eine Datei von deinem Computer hoch…"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "… oder erstelle direkt über die Nextcloud-Oberfläche eine Datei oder einen Ordner."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Einige Verknüpfungen sind an der Seite verfügbar, einschließlich der <b>kürzlich verwendeten Dateien</b> und der <b>gelöschten Dateien</b>."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Klicke auf die drei Punkte, um mit der ausgewählten Datei oder dem ausgewählten Ordner zu interagieren."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Dateien und Ordner sind standardmäßig nicht freigegeben, aber du kannst sie öffentlich oder an die Benutzer dieses Nextcloud-Servers weitergeben.",
+                    "Klicke auf die Freigabetaste, um mehr über die <b>Freigabeoptionen</b> zu erfahren, nachdem dieses Tutorial beendet ist."
+                ]
+            },
+            {
+                "title": "Bis bald!",
+                "paragraphs": [
+                    "Das ist das Ende des Tutorials dieser App.",
+                    "Du kannst die Tutorials anderer Apps mit den folgenden Schaltflächen fortsetzen:"
+                ]
+            }
+        ]
+    },
+    "files-aside-tab-sharing": {
+        "name": "Freigaben",
+        "steps": [
+            {
+                "title": "Dateien teilen",
+                "paragraphs": [
+                    "Willkommen im Tutorial zum Teilen von Dateien."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Dieses Tutorial überspringen"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Du kannst einen internen Freigabelink erstellen, um eine Datei oder einen Ordner an andere Benutzer dieses Nextcloud-Servers weiterzugeben.",
+                    "Dieser Link wird <b>nur für Personen zugänglich sein, die ein Konto auf diesem Nextcloud-Server haben</b>!"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Du kannst auch einen <b>öffentlichen Link</b> erstellen, um eine Datei oder einen Ordner an jeden im Internet weiterzugeben. Du kannst wählen, ob sie nur die Ressource sehen oder sie auch bearbeiten können."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "<b>Um eine Datei oder einen Ordner per E-Mail zu teilen</b>, gib die E-Mail-Adresse der Person ein, an die du diese Datei oder diesen Ordner weitergeben möchtest, und wähle ihre Berechtigungen für die Ressource aus."
+                ]
+            },
+            {
+                "title": "Bis bald!",
+                "paragraphs": [
+                    "Das ist das Ende dieses Tutorials."
+                ]
+            }
+        ]
+    },
+    "user": {
+        "name": "Benutzerprofil",
+        "steps": [
+            {
+                "title": "Willkommen!",
+                "paragraphs": [
+                    "Dieser Bereich gibt dir Zugang zu deinen persönlichen Informationen."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Dieses Tutorial überspringen"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Dein Profil ist immer in der oberen rechten Ecke zugänglich. Du kannst von dort aus auf deine persönlichen Informationen zugreifen."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Du kannst deinen Namen, dein Profilbild oder die Sprache im Abschnitt 'persönliche Informationen' ändern."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Im Abschnitt 'Sicherheit' kannst du <b>dein Passwort ändern</b>."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Lege im Abschnitt 'Benachrichtigungen' fest, ob du E-Mails erhalten möchtest, wenn etwas auf diesem Nextcloud passiert."
+                ]
+            },
+            {
+                "title": "Bis bald!",
+                "paragraphs": [
+                    "Das ist das Ende des Tutorials dieser App.",
+                    "Du kannst die Tutorials anderer Apps mit den folgenden Schaltflächen fortsetzen:"
+                ]
+            }
+        ]
+    },
+    "calendar": {
+        "name": "Kalender",
+        "steps": [
+            {
+                "title": "Willkommen!",
+                "paragraphs": [
+                    "Organisiere deine Ereignisse in der Kalender-App."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Dieses Tutorial überspringen"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Der zentrale Kalender zeigt alle Ereignisse, die mit dir geteilt wurden oder die du selbst erstellt hast."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Du kannst die Dauer des Zeitraums in diesem Menü ändern."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Die 'Heute'-Schaltfläche zentriert den Kalender auf den aktuellen Tag, die aktuelle Woche oder den aktuellen Monat."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Kalender, auf die du Zugriff hast (die du erstellt hast oder die dir geteilt wurden), sind hier verfügbar."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Erstelle einen neuen Kalender, um ihn mit diesem Button zur Liste hinzuzufügen."
+                ]
+            },
+			{
+				"paragraphs": [
+					"You can edit a calendar by clicking on the pencil icon."
+				]
+			},
+			{
+				"paragraphs": [
+					"You can share a calendar with another user, a group or via a public link."
+				]
+			},
+            {
+                "paragraphs": [
+                    "Du kannst hier ein neues Ereignis erstellen und es zu einem Kalender hinzufügen."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Du kannst <b>Ereignisse aus einem anderen Kalender importieren</b> (z. B. aus einer .ics-Datei) mit der Schaltfläche 'Kalender importieren' in den Kalendereinstellungen."
+                ]
+            },
+            {
+                "title": "Bis bald!",
+                "paragraphs": [
+                    "Das ist das Ende des Tutorials dieser App.",
+                    "Du kannst die Tutorials anderer Apps mit den folgenden Schaltflächen fortsetzen:"
+                ]
+            }
+        ]
+    },
+    "contacts": {
+        "name": "Kontakte",
+        "steps": [
+            {
+                "title": "Willkommen!",
+                "paragraphs": [
+                    "Speichere deine persönlichen Kontakte in der Kontakte-App. Andere Benutzer haben standardmäßig keinen Zugriff darauf."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Dieses Tutorial überspringen"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Klicke hier, um einen Kontakt hinzuzufügen."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Du kannst auch <b>ein Set von Kontakten</b> aus einer anderen Anwendung in den Kontakteinstellungen importieren."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Organisiere deine Kontakte mit Kontaktgruppen.",
+                    "Diese Gruppen sind <b>deine</b> Gruppen und nicht öffentlich."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Mit Kreisen kannst du Gruppen von Personen erstellen, mit denen du Daten teilen kannst.",
+                    "Kreise sind innerhalb dieses Nextcloud-Servers öffentlich."
+                ]
+            },
+            {
+                "title": "Bis bald!",
+                "paragraphs": [
+                    "Das ist das Ende des Tutorials dieser App.",
+                    "Du kannst die Tutorials anderer Apps mit den folgenden Schaltflächen fortsetzen:"
+                ]
+            }
+        ]
+    },
+    "spreed": {
+        "name": "Talk",
+        "steps": [
+            {
+                "title": "Willkommen!",
+                "paragraphs": [
+                    "Die Talk-App ermöglicht es dir, mit anderen in Nextcloud zu chatten oder Videoanrufe zu führen."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Dieses Tutorial überspringen"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Hier findest du deine bestehenden Gespräche."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Erstelle einen neuen Gruppenchat mit diesem Button."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Du kannst auch nach jemandem suchen, indem du seinen Namen in die Suchleiste eingibst."
+                ]
+            },
+            {
+                "title": "Bis bald!",
+                "paragraphs": [
+                    "Das ist das Ende des Tutorials dieser App.",
+                    "Du kannst die Tutorials anderer Apps mit den folgenden Schaltflächen fortsetzen:"
+                ]
+            }
+        ]
+    }
+}

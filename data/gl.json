@@ -1,0 +1,294 @@
+{
+    "dashboard": {
+        "name": "Taboleiro",
+        "steps": [
+            {
+                "title": "Dámoslle a benvida!",
+                "paragraphs": [
+                    "Dámoslle a benvida ao taboleiro de Nextcloud.",
+                    "<br>",
+                    "Gustaríache facer unha visita guiada duns minutos antes de comezar a usar Nextcloud?"
+                ],
+                "choices": [
+                    {
+                        "label": "Non"
+                    },
+                    {
+                        "success": true,
+                        "label": "Si"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "No teu <b>Taboleiro</b>, atoparás unha vista xeral do ocorrido recentemente en Nextcloud."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Os <b>ficheiros recomendados</b> son ficheiros almacenados neste Nextcloud que foron creados ou modificados recentemente.",
+                    "<br>",
+                    "Os <b>próximos eventos</b> corresponden aos teus calendarios e aos compartidos polos usuarios deste Nextcloud."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Ao premer clic en «Personalizar», podes escoller entre <b>eliminar ou engadir elementos</b> ao Taboleiro.",
+                    "Este é o <b>teu</b> espazo, as túas escollas non afectarán aos outros usuarios!"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Aquí atoparás as diferentes aplicacións instaladas neste Nextcloud."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Accediches cun nome de usuario e contrasinal. <b>Podes atopar o teu perfil aquí.</b>"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Podes atopar e modificar a túa información persoal premendo aquí."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Tamén podes atopar <b>todas as visitas guiadas</b> premendo no botón «Visitas guiadas».",
+                    "Este menú permíteche activar e desactivar as visitas guiadas das aplicacións en calquera momento."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "A visita guiada a esta aplicación xa rematou.",
+                    "Podes acceder a visitas guiadas a outras aplicacións premendo embaixo:"
+                ],
+                "title": "Deica logo!"
+            }
+        ]
+    },
+    "files": {
+        "name": "Ficheiros",
+        "steps": [
+            {
+                "title": "Dámoslle a benvida!",
+                "choices": [
+                    {
+                        "label": "Non quero seguir esta visita"
+                    }
+                ],
+                "paragraphs": [
+                    "Dámoslle a benvida á visita guiada da aplicación Ficheiros que constitúe o corazón de Nextcloud!"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "No centro está a estrutura en árbore cos diferentes cartafoles e ficheiros."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Co botón «Novo», podes <b>engadir novos documentos e cartafoles</b> ao teu espazo Nextcloud."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Podes enviar un ficheiro desde o teu computador…"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "… ou crear un ficheiro ou cartafol directamente neste espazo."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "O panel lateral fornece acceso aos<b> ficheiros usados recentemente</b> (Recentes) ou ao <b>cesto do lixo</b> (Ficheiros eliminados)."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Premendo nos tres puntos, terás todas as accións posíbeis para un documento ou un cartafol."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "É posíbel que outras persoas non poidan acceder aos cartafoles e ficheiros. Podes compartir un ficheiro, de forma pública ou privada.",
+                    "Para obter máis información sobre as <b>opcións de compartición</b>, preme na icona de compartir após esta visita guiada."
+                ]
+            },
+            {
+                "title": "Deica logo!",
+                "paragraphs": [
+                    "A visita guiada a esta aplicación xa rematou.",
+                    "Podes acceder a visitas guiadas a outras aplicacións premendo embaixo:"
+                ]
+            }
+        ]
+    },
+    "files-aside-tab-sharing": {
+        "steps": [
+            {
+                "paragraphs": [
+                    "Dámoslle a benvida á visita guiada sobre a xestión do uso compartido de ficheiros."
+                ],
+                "title": "Compartir ficheiros",
+                "choices": [
+                    {
+                        "label": "Non quero seguir esta visita"
+                    }
+                ]
+            },
+            {},
+            {},
+            {},
+            {
+                "paragraphs": [
+                    "Esta visita guiada xa rematou."
+                ],
+                "title": "Deica logo!"
+            }
+        ],
+        "name": "Comparticións"
+    },
+    "user": {
+        "steps": [
+            {
+                "title": "Dámoslle a benvida!",
+                "paragraphs": [
+                    "Esta sección permíteche acceder aos teus axustes de persoais."
+                ],
+                "choices": [
+                    {
+                        "label": "Non quero seguir esta visita"
+                    }
+                ]
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "title": "Deica logo!",
+                "paragraphs": [
+                    "A visita guiada a esta aplicación xa rematou.",
+                    "Podes acceder a visitas guiadas a outras aplicacións premendo embaixo:"
+                ]
+            }
+        ],
+        "name": "Personalizar o perfil"
+    },
+    "calendar": {
+        "name": "Calendario",
+        "steps": [
+            {
+                "title": "Dámoslle a benvida!",
+                "choices": [
+                    {
+                        "label": "Non quero seguir esta visita"
+                    }
+                ],
+                "paragraphs": [
+                    "Xestiona os teus eventos coa aplicación Calendario."
+                ]
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "paragraphs": [
+                    "You can edit a calendar by clicking on the pencil icon."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "You can share a calendar with another user, a group or via a public link."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Podes crear un novo evento e engadilo a un dos calendarios."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Podes <b>importar eventos doutro calendario</b> (p. ex., dun ficheiro .ics) co botón «Importar calendario» na configuración do calendario."
+                ]
+            },
+            {
+                "title": "Deica logo!",
+                "paragraphs": [
+                    "A visita guiada a esta aplicación xa rematou.",
+                    "Podes acceder a visitas guiadas doutras aplicacións premendo nos botóns de embaixo:"
+                ]
+            }
+        ]
+    },
+    "contacts": {
+        "steps": [
+            {
+                "title": "Dámoslle a benvida!",
+                "choices": [
+                    {
+                        "label": "Non quero seguir esta visita"
+                    }
+                ],
+                "paragraphs": [
+                    "A aplicación Contactos permíteche rexistrar os teus contactos persoais. De xeito predeterminado, os outros usuarios non terán acceso a eles."
+                ]
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "title": "Deica logo!",
+                "paragraphs": [
+                    "A visita guiada a esta aplicación xa rematou.",
+                    "Podes acceder a visitas guiadas a outras aplicacións premendo embaixo:"
+                ]
+            }
+        ],
+        "name": "Contactos"
+    },
+    "spreed": {
+        "steps": [
+            {
+                "title": "Dámoslle a benvida!",
+                "choices": [
+                    {
+                        "label": "Non quero seguir esta visita"
+                    }
+                ],
+                "paragraphs": [
+                    "O módulo Falar permite parolar ou facer videochamadas con outras persoas en Nextcloud."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Atopa aquí as conversas existentes."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Crea unha nova parola de grupo con este botón."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Tamén podes parolar cunha persoa específica buscando o seu nome na caixa de busca."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "A visita guiada a esta aplicación xa rematou.",
+                    "Podes acceder a visitas guiadas a outras aplicacións premendo embaixo:"
+                ],
+                "title": "Deica logo!"
+            }
+        ],
+        "name": "Falar"
+    }
+}

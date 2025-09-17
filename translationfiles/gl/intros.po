@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2024-07-17 14:17+0200\n"
+"PO-Revision-Date: 2025-01-04 12:01+0000\n"
+"Last-Translator: \"Miguel A. Bouzada Fdz.\" <mbouzada@gmail.com>\n"
+"Language-Team: Galician <https://weblate.framasoft.org/projects/"
+"framaspace-intro/layout/gl/>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.1\n"
+
+#: /home/val/nextcloud-docker-dev/workspace/server/apps-extra/intros/lib/Controller/ConfigController.php:76
+#: /home/val/nextcloud-docker-dev/workspace/server/apps-extra/intros/lib/Controller/ConfigController.php:88
+msgid "Saved!"
+msgstr "Gardado!"
+
+#. TRANSLATORS src/components/AdminSettings.vue:3
+#: /home/val/nextcloud-docker-dev/workspace/server/apps-extra/intros/lib/Settings/AdminSection.php:40
+#: /home/val/nextcloud-docker-dev/workspace/server/apps-extra/intros/specialAppInfoFakeDummyForL10nScript.php:2
+#: /home/val/nextcloud-docker-dev/workspace/server/apps-extra/intros/specialVueFakeDummyForL10nScript.js:2
+msgid "Intros"
+msgstr "Visitas guiadas"
+
+#. TRANSLATORS src/components/AdminSettings.vue:4
+#: /home/val/nextcloud-docker-dev/workspace/server/apps-extra/intros/specialVueFakeDummyForL10nScript.js:4
+msgid ""
+"You can choose to enable/disable the tutorial for each app. Check the apps "
+"for which you want to see the tutorial and click save, or use the enable/"
+"disable all buttons."
+msgstr ""
+"Podes escoller activar ou desactivar as visitas guiadas para cada "
+"aplicación. Marca as aplicacións das que queres ver a visita guiada e preme "
+"en Gardar, ou usa os botóns para activar/desactivar todas as visitas."
+
+#. TRANSLATORS src/components/AdminSettings.vue:20
+#: /home/val/nextcloud-docker-dev/workspace/server/apps-extra/intros/specialVueFakeDummyForL10nScript.js:6
+msgid "Go to tutorial"
+msgstr "Acceder á visita guiada"
+
+#. TRANSLATORS src/components/AdminSettings.vue:28
+#: /home/val/nextcloud-docker-dev/workspace/server/apps-extra/intros/specialVueFakeDummyForL10nScript.js:8
+msgid "Save"
+msgstr "Gardar"
+
+#. TRANSLATORS src/components/AdminSettings.vue:31
+#: /home/val/nextcloud-docker-dev/workspace/server/apps-extra/intros/specialVueFakeDummyForL10nScript.js:10
+msgid "Enable all tutorials"
+msgstr "Activar todas as visitas guiadas"
+
+#. TRANSLATORS src/components/AdminSettings.vue:34
+#: /home/val/nextcloud-docker-dev/workspace/server/apps-extra/intros/specialVueFakeDummyForL10nScript.js:12
+msgid "Disable all tutorials"
+msgstr "Desactivar todas as visitas guiadas"
+
+#. TRANSLATORS src/components/IntroTooltip.vue:36
+#: /home/val/nextcloud-docker-dev/workspace/server/apps-extra/intros/specialVueFakeDummyForL10nScript.js:14
+msgid "Play this tutorial again next time"
+msgstr "Repetir esta visita guiada a próxima vez"
+
+#: /home/val/nextcloud-docker-dev/workspace/server/apps-extra/intros/src/introManager.js:137
+msgid "Next"
+msgstr "Seguinte"
+
+#: /home/val/nextcloud-docker-dev/workspace/server/apps-extra/intros/src/introManager.js:138
+msgid "Done"
+msgstr "Rematar"
+
+#: /home/val/nextcloud-docker-dev/workspace/server/apps-extra/intros/src/introManager.js:139
+msgid "Previous"
+msgstr "Anterior"
+
+#: /home/val/nextcloud-docker-dev/workspace/server/apps-extra/intros/src/introManager.js:314
+msgid "Saved. This tutorial will play again next time."
+msgstr "Axustes gardados. Esta visita guiada aparecerá de novo a próxima vez."
+
+#: /home/val/nextcloud-docker-dev/workspace/server/apps-extra/intros/src/introManager.js:316
+msgid "Saved. This tutorial won't be shown again."
+msgstr "Axustes gardados. Esta visita guiada xa non volverá amosarse."

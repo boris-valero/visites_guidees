@@ -1,0 +1,364 @@
+{
+    "dashboard": {
+        "name": "Tableau de bord",
+        "steps": [
+            {
+                "title": "Bienvenue !",
+                "paragraphs": [
+                    "Bienvenue sur la page d’accueil de l’espace Framaspace de votre collectif ou association.",
+                    "<br>",
+                    "Souhaitez-vous suivre une visite guidée de quelques minutes de cet espace collaboratif ?"
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Non"
+                    },
+                    {
+                        "success": true,
+                        "label": "Oui"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Sur votre page d’accueil ou <i>Dashboard</i>, vous retrouvez une vue d’ensemble de ce qui s’est passé récemment sur le Framaspace de votre collectif."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Les <i>Fichiers recommandés</i> sont les fichiers stockés sur ce Framaspace qui ont été créés ou modifiés récemment.",
+                    "<br>",
+                    "Les <i>Événements à venir</i> correspondent à vos agendas et ceux partagés par les membres de votre collectif."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "En cliquant sur <i>Personnaliser</i>, vous pouvez <b>choisir d’enlever ou d’ajouter des éléments</b> sur cette page d’accueil.",
+                    "C’est <b>votre</b> espace, vos choix n’auront pas d’impact sur les autres membres de votre collectif !"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Vous trouvez ici les différentes <b>applications</b> du Framaspace de votre collectif."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Vous vous êtes connecté·e grâce à un identifiant et un mot de passe.",
+                    "Les informations relatives à votre compte sont disponibles en cliquant ici."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Vous pouvez retrouver et modifier vos informations personnelles en cliquant ici."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Vous pouvez aussi retrouver <b>l’ensemble des visites guidées</b> en cliquant sur le bouton <i>Visites guidées</i>.",
+                    "Vous pouvez activer et désactiver les visites guidées des applications à tout moment grâce à ce menu."
+                ]
+            },
+            {
+                "title": "À bientôt !",
+                "paragraphs": [
+                    "Cette visite guidée est maintenant terminée.",
+                    "Vous pouvez accéder aux visites guidées d’autres applications en cliquant ci-dessous :"
+                ]
+            }
+        ]
+    },
+    "files": {
+        "name": "Fichiers",
+        "steps": [
+            {
+                "title": "Bienvenue !",
+                "paragraphs": [
+                    "Bienvenue dans la visite guidée de l’application <i>Fichiers</i> qui constitue le cœur votre espace Framaspace !"
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Je ne souhaite pas suivre cette visite"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Vous retrouvez au centre votre arborescence avec vos différents dossiers et fichiers."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Avec le bouton <i>Nouveau</i>, vous pouvez <b>ajouter des nouveaux documents et dossiers</b> à votre Framaspace."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Vous pouvez envoyer un fichier présent sur votre ordinateur vers votre Framaspace..."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "... ou créer un fichier ou un dossier directement dans cet espace."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Le volet latéral permet d’accéder notamment aux <b>fichiers récemment utilisés</b> (<i>Récents</i>) ou à la <b>corbeille</b> (<i>Fichiers supprimés</i>)."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "En cliquant sur les trois points, vous aurez l’ensemble des actions possibles pour un document ou un dossier.",
+                    "Par exemple : <i>Renommer</i>, <i>Télécharger</i> ou <i>Supprimer</i>."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Sur Framaspace, les dossiers et fichiers ne sont pas forcément accessibles à d’autres personnes.",
+                    "Pour en savoir plus sur les <b>options de partage</b>, cliquez sur l'icone de partage après cette visite."
+                ]
+            },
+            {
+                "title": "À bientôt !",
+                "paragraphs": [
+                    "Cette visite guidée est maintenant terminée.",
+                    "Vous pouvez accéder aux visites guidées d’autres applications en cliquant ci-dessous :"
+                ]
+            }
+        ]
+    },
+    "files-aside-tab-sharing": {
+        "name": "Partages",
+        "steps": [
+            {
+                "title": "Partager des fichiers",
+                "paragraphs": [
+                    "Bienvenue dans la visite guidée de la gestion du partage d'un fichier."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Je ne souhaite pas suivre cette visite"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Vous pouvez diffuser un lien de partage aux autres personnes de votre collectif et ainsi leur permettre d’accéder à un de vos fichiers ou dossiers.",
+                    "Ce lien ne sera accessible <b>qu'aux personnes de votre collectif</b> !"
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Il est aussi possible de faire un <b>lien public</b> pour des personnes n’ayant pas de compte sur votre Framaspace et de définir si la personne peut juste afficher l’élément ou le modifier."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Enfin, il est possible de <b>partager un dossier ou un fichier par mail</b> en écrivant l’adresse de la personne destinataire et en définissant là aussi si la personne peut juste lire l’élément ou le modifier."
+                ]
+            },
+            {
+                "title": "À bientôt !",
+                "paragraphs": [
+                    "Cette visite guidée est maintenant terminée."
+                ]
+            }
+        ]
+    },
+    "user": {
+        "name": "Personnaliser son profil",
+        "steps": [
+            {
+                "title": "Bienvenue !",
+                "paragraphs": [
+                    "Cette section vous permet d'accéder à vos paramètres personnels."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Je ne souhaite pas suivre cette visite"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "À tout moment, en cliquant en haut à droite sur votre image de profil, vous avez accès à vos <i>Paramètres personnels</i>."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Le menu <i>Informations personnelles</i> vous permet de modifier votre nom, votre image de profil ou encore de préciser votre fonction au sein de votre collectif."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Le menu <i>Sécurité</i> vous permet notamment de <b>modifier votre mot de passe</b> en cas de besoin."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Le menu <i>Notifications</i> vous permet de définir si vous souhaitez être informé·e par mail quand certaines activités ont eu lieu sur le Framaspace de votre collectif."
+                ]
+            },
+            {
+                "title": "À bientôt !",
+                "paragraphs": [
+                    "Cette visite guidée est maintenant terminée.",
+                    "Vous pouvez accéder aux visites guidées d’autres applications en cliquant ci-dessous :"
+                ]
+            }
+        ]
+    },
+    "calendar": {
+        "name": "Agenda",
+        "steps": [
+            {
+                "title": "Bienvenue !",
+                "paragraphs": [
+                    "L'application <i>Agenda</i> vous permet de vous organiser entre membres de votre collectif en y entrant vos évènements."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Je ne souhaite pas suivre cette visite"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Le calendrier central affiche les évènements partagés avec vous, ainsi que ceux de vos propres agendas."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Vous pouvez changer de période grâce à l’indicateur de vue."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Le bouton <i>Auj</i> permet de recentrer la vue sur la journée, la semaine ou le mois en cours."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Les agendas auxquels vous avez accès (les vôtres et ceux qui vous sont partagés) sont listés ici."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Vous pouvez créer un nouvel agenda qui s’ajoutera dans la liste."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Vous pouvez partager un agenda en cliquant sur l’icône représentant un crayon."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Vous pouvez créer un nouvel événement et l'ajouter à l’un des agendas."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Il est possible <b>d’importer un évènement issu d’un autre calendrier</b> (par exemple à partir d’un fichier de type .ics) en cliquant sur <i>Paramètres de agenda</i>, puis <i>Importer un agenda</i>."
+                ]
+            },
+            {
+                "title": "À bientôt !",
+                "paragraphs": [
+                    "Cette visite guidée est maintenant terminée.",
+                    "Vous pouvez accéder aux visites guidées d’autres applications en cliquant ci-dessous :"
+                ]
+            }
+        ]
+    },
+    "contacts": {
+        "name": "Contacts",
+        "steps": [
+            {
+                "title": "Bienvenue !",
+                "paragraphs": [
+                    "L’application <i>Contacts</i> vous permet d’enregistrer vos contacts personnels. Par défaut, personne d’autre que vous ne peut y accéder."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Je ne souhaite pas suivre cette visite"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Pour ajouter un contact, cliquez ici et ajoutez son nom et ses coordonnées."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Vous pouvez aussi <b>importer un répertoire</b> depuis un autre logiciel dans la rubrique <i>Paramètres de Contacts</i>."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Avec les groupes, organisez vos contacts comme vous l’entendez.",
+                    "Ces groupes sont <b>vos</b> groupes, ils ne sont pas publics."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Avec les <i>Cercles</i>, créez des groupes de personnes avec lesquels vous pouvez partager des données (par exemple un bureau d’association avec qui vous partagez les fichiers comptables)."
+                ]
+            },
+            {
+                "title": "À bientôt !",
+                "paragraphs": [
+                    "Cette visite guidée est maintenant terminée.",
+                    "Vous pouvez accéder aux visites guidées d’autres applications en cliquant ci-dessous :"
+                ]
+            }
+        ]
+    },
+    "spreed": {
+        "name": "Discussion",
+        "steps": [
+            {
+                "title": "Bienvenue !",
+                "paragraphs": [
+                    "Le module <i>Discussion</i> permet d’échanger par conversation écrite ou en appel vidéo sans quitter Framaspace."
+                ],
+                "choices": [
+                    {
+                        "success": false,
+                        "label": "Je ne souhaite pas suivre cette visite"
+                    }
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Retrouvez les conversations déjà existantes ici."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Pour créer une nouvelle discussion de groupe, cliquez sur la bulle."
+                ]
+            },
+            {
+                "paragraphs": [
+                    "Vous pouvez aussi discuter avec une personne en particulier en cherchant son nom dans le champ de recherche et en cliquant dessus."
+                ]
+            },
+            {
+                "title": "À bientôt !",
+                "paragraphs": [
+                    "Cette visite guidée est maintenant terminée.",
+                    "Vous pouvez accéder aux visites guidées d’autres applications en cliquant ci-dessous :"
+                ]
+            }
+        ]
+    }
+}

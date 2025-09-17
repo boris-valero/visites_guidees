@@ -1,0 +1,155 @@
+---
+stages:
+  - lint
+  - static-analysis
+  - build
+  - package
+  - release-and-publish
+
+variables:
+  NC: '\033[0m'
+  CYAN: '\033[0;36m'
+
+.configure-php: &configure-php
+  - curl -sSLf -o /usr/local/bin/install-php-extensions https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions
+  - chmod +x /usr/local/bin/install-php-extensions
+  - install-php-extensions gd zip xdebug
+  - install-php-extensions @composer
+
+.php-for-lint: &php-for-lint
+  image: php:8.3-cli
+  stage: lint
+  before_script:
+    - *configure-php
+    - composer install
+
+.setup-nextcloud: &setup-nextcloud
+  - apt-get update
+  - apt-get -y --no-install-recommends install git
+  - cp -r . /tmp/intros
+  - rm -rf nextcloud  # Just in case
+  - git clone https://github.com/nextcloud/server.git --recursive --depth 1 -b $NEXTCLOUD_VERSION nextcloud
+  - php -f nextcloud/occ maintenance:install --database-name oc_autotest --database-user oc_autotest --admin-user admin --admin-pass admin --database sqlite --database-pass=''
+  - cp -r /tmp/intros nextcloud/apps/
+
+.install-nextcloud-script: &install-nextcloud-script
+  before_script:
+    - *configure-php
+    - *setup-nextcloud
+    - cd nextcloud/apps/intros
+    - composer install
+
+lint-xml:
+  stage: lint
+  image: debian:latest
+  before_script:
+    - apt-get update && apt-get -y --no-install-recommends install wget libxml2-utils ca-certificates
+    - wget https://apps.nextcloud.com/schema/apps/info.xsd
+  script:
+    - xmllint ./appinfo/info.xml --schema ./info.xsd --noout
+
+lint-php:
+  <<: *php-for-lint
+  script:
+    - composer run lint
+
+php-cs-fixer:
+  <<: *php-for-lint
+  script:
+    - composer run cs:check || ( echo 'Please run `composer run cs:fix` to format your code' && exit 1 )
+
+lint-js:
+  image: node:20
+  stage: lint
+  before_script:
+    - npm ci
+  script:
+    - npm run lint
+
+static-analysis:
+  <<: *install-nextcloud-script
+  stage: static-analysis
+  image: php:8.3-cli
+  parallel:
+    matrix:
+      - NEXTCLOUD_VERSION: [stable30, stable31]
+  script:
+    - composer run psalm
+
+build-js:
+  stage: build
+  image: node:20
+  before_script:
+    - npm ci
+  script:
+    - npm run build
+
+.package: &package
+  image: alpine
+  stage: package
+  before_script:
+    - apk update && apk add cargo composer nodejs npm
+    - cargo install --git https://github.com/ChristophWurst/krankerl
+  script:
+    - ~/.cargo/bin/krankerl package
+    - mv build/artifacts/intros.tar.gz intros-$CI_COMMIT_TAG.tar.gz
+
+package-tag:
+  <<: *package
+  artifacts:
+    name: "$CI_COMMIT_TAG"
+    paths:
+      - intros-$CI_COMMIT_TAG.tar.gz
+    expire_in: 1h
+  rules:
+    - if: $CI_COMMIT_TAG
+
+release:
+  stage: release-and-publish
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  rules:
+    - if: $CI_COMMIT_TAG
+  script:
+    - echo "Running the release job."
+  allow_failure: true
+  release:
+    name: $CI_COMMIT_TAG
+    tag_name: $CI_COMMIT_TAG
+    description: $CI_COMMIT_TAG
+    assets:
+      links:
+        - name: "intros-$CI_COMMIT_TAG.tar.gz"
+          url: "https://packages.framasoft.org/projects/nextcloud-apps/intros/intros-$CI_COMMIT_TAG.tar.gz"
+          link_type: package
+        - name: "intros-$CI_COMMIT_TAG.tar.gz.sha512"
+          url: "https://packages.framasoft.org/projects/nextcloud-apps/intros/intros-$CI_COMMIT_TAG.tar.gz.sha512"
+          link_type: other
+        - name: "intros-$CI_COMMIT_TAG.tar.gz.minisig"
+          url: "https://packages.framasoft.org/projects/nextcloud-apps/intros/intros-$CI_COMMIT_TAG.tar.gz.minisig"
+          link_type: other
+
+publish:
+  stage: release-and-publish
+  image: framasoft/upload-packages:latest
+  before_script:
+    - export ENVKEY
+    - eval "$(envkey-source)"
+    - mkdir -p ~/.minisign
+    - chmod 700 ~/.minisign
+    - "echo 'untrusted comment: minisign encrypted secret key' \
+          > ~/.minisign/minisign.key"
+    - echo "$MINISIG_KEY" >> ~/.minisign/minisign.key
+    - chmod 600 ~/.minisign/minisign.key
+    - echo "$MINISIG_PWD" | minisign -Sm "intros-$CI_COMMIT_TAG.tar.gz"
+    - sha512sum "intros-$CI_COMMIT_TAG.tar.gz" > "intros-$CI_COMMIT_TAG.tar.gz.sha512"
+  script:
+    - eval $(ssh-agent -s)
+    - ssh-add <(echo "${DEPLOYEMENT_KEY}" | base64 --decode -i)
+    - echo "put intros-$CI_COMMIT_TAG.tar.gz"         | sftp -o "VerifyHostKeyDNS yes" -o "StrictHostKeyChecking accept-new" ${DEPLOYEMENT_USER}@${DEPLOYEMENT_HOST}:public/
+    - echo "put intros-$CI_COMMIT_TAG.tar.gz.sha512"  | sftp -o "VerifyHostKeyDNS yes" -o "StrictHostKeyChecking accept-new" ${DEPLOYEMENT_USER}@${DEPLOYEMENT_HOST}:public/
+    - echo "put intros-$CI_COMMIT_TAG.tar.gz.minisig" | sftp -o "VerifyHostKeyDNS yes" -o "StrictHostKeyChecking accept-new" ${DEPLOYEMENT_USER}@${DEPLOYEMENT_HOST}:public/
+    - echo -e "${CYAN}               =====================================================================================================\n               == intros-$CI_COMMIT_TAG.tar.gz published on https://packages.framasoft.org/projects/nextcloud-apps/intros/ ==\n               =====================================================================================================${NC}"
+  dependencies:
+    - package-tag
+  rules:
+    - if: $CI_COMMIT_TAG && $ENVKEY

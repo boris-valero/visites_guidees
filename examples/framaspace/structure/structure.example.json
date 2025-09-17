@@ -1,0 +1,236 @@
+{
+    "dashboard": {
+        "steps": [
+            {
+                "element": ""
+            },
+            {
+                "element": "div#app-dashboard"
+            },
+            {
+                "position": "floating",
+                "element": "div#app-dashboard"
+            },
+            {
+                "element": "div#app-dashboard > div.footer > button"
+            },
+            {
+                "element": "header > div.header-left > nav.app-menu > ul.app-menu-main"
+            },
+            {
+                "element": "nav#user-menu"
+            },
+            {
+                "element": "div#header-menu-user-menu > div.header-menu__content > ul > li#settings",
+                "open": "nav#user-menu > button",
+                "position": "left"
+            },
+            {
+                "element": "div#header-menu-user-menu > div.header-menu__content > ul > li#intros",
+                "open": "nav#user-menu > button",
+                "position": "left"
+            },
+            {
+                "element": "",
+                "links": [
+                    "files",
+                    "calendar"
+                ]
+            }
+        ]
+    },
+    "files": {
+        "steps": [
+            {
+                "element": ""
+            },
+            {
+                "element": "div.files-list"
+            },
+            {
+                "element": "div.files-list__header > div.breadcrumb > div.breadcrumb__actions"
+            },
+            {
+                "element": "div.v-popper__inner > div > div.open > ul > li.action",
+                "open": "div.files-list__header > div.breadcrumb > div.breadcrumb__actions > form.files-list__header-upload-button > div.action-item > div.v-popper > button",
+                "position": "right"
+            },
+            {
+                "element": "div.v-popper__inner > div > div.open > ul",
+                "open": "div.files-list__header > div.breadcrumb > div.breadcrumb__actions > form.files-list__header-upload-button > div.action-item > div.v-popper > button",
+                "position": "right"
+            },
+            {
+                "element": "div.app-navigation"
+            },
+            {
+                "element": "tr.files-list__row > td.files-list__row-actions > div > div.action-item",
+                "position": "bottom"
+            },
+            {
+                "element": "tr.files-list__row > td.files-list__row-actions > div > button",
+                "position": "bottom"
+            },
+            {
+                "links": [
+                    "dashboard",
+                    "calendar",
+                    "spreed",
+                    "contacts"
+                ]
+            }
+        ]
+    },
+    "files-aside-tab-sharing": {
+        "steps": [
+            {
+                "element": ""
+            },
+            {
+                "element": "section#tab-sharing > div.sharingTab > div > ul:last-child",
+                "position": "left"
+            },
+            {
+                "element": "section#tab-sharing > div.sharingTab > div > ul.sharing-link-list",
+                "position": "left"
+            },
+            {
+                "element": "section#tab-sharing > div.sharingTab > div > div.sharing-search",
+                "position": "left"
+            },
+            {
+                "element": ""
+            }
+        ]
+    },
+    "user": {
+        "steps": [
+            {
+                "element": ""
+            },
+            {
+                "element": "div#header-menu-user-menu",
+                "open": "nav#user-menu > button",
+                "position": "left"
+            },
+            {
+                "element": "div#app-navigation > nav.app-navigation-personal > ul > li[data-section-id='personal-info']",
+                "position": "right"
+            },
+            {
+                "element": "div#app-navigation > nav.app-navigation-personal > ul > li[data-section-id='security']",
+                "position": "right"
+            },
+            {
+                "element": "div#app-navigation > nav.app-navigation-personal > ul > li[data-section-id='notifications']",
+                "position": "right"
+            },
+            {
+                "links": [
+                    "dashboard",
+                    "files",
+                    "calendar",
+                    "spreed",
+                    "contacts"
+                ]
+            }
+        ]
+    },
+    "calendar": {
+        "steps": [
+            {
+                "element": ""
+            },
+            {
+                "element": "main#app-content-vue > div"
+            },
+            {
+                "element": "div.v-popper__popper--shown",
+                "open": "div.new-event-today-view-section > div.action-item > div > button"
+            },
+            {
+                "element": "div.new-event-today-view-section > button.today"
+            },
+            {
+                "element": "ul.app-navigation__list > div",
+                "position": "right"
+            },
+            {
+                "element": "ul.app-navigation__list > li.app-navigation-entry-new-calendar",
+                "position": "right"
+            },
+            {
+                "element": "ul.app-navigation__list > div > li > div > div.app-navigation-entry__utils > button",
+                "position": "right",
+                "hover": true
+            },
+            {
+                "element": "div.new-event-today-view-section > button.new-event"
+            },
+            {
+                "element": "div#app-settings__content > ul > li:first-child",
+                "open": "div#app-settings > div > button",
+                "position": "right"
+            },
+            {
+                "links": [
+                    "dashboard",
+                    "files",
+                    "spreed",
+                    "contacts"
+                ]
+            }
+        ]
+    },
+    "contacts": {
+        "steps": [
+            {
+                "element": ""
+            },
+            {
+                "element": "div.import-and-new-contact-buttons > button",
+                "position": "right"
+            },
+            {
+                "element": "div.contacts-settings > button"
+            },
+            {
+                "element": "nav#app-navigation-vue > ul.app-navigation__list > li.app-navigation-caption",
+                "position": "right"
+            },
+            {
+                "element": "nav#app-navigation-vue > ul.app-navigation__list > li.app-navigation-caption:nth-child(2 of .app-navigation-caption)",
+                "position": "right"
+            },
+            {
+                "links": [
+                    "spreed",
+                    "calendar"
+                ]
+            }
+        ]
+    },
+    "spreed": {
+        "steps": [
+            {
+                "element": ""
+            },
+            {
+                "element": "div.app-navigation > nav#app-navigation-vue > ul",
+                "position": "right"
+            },
+            {
+                "element": "div.new-conversation > div.actions > div.v-popper > button"
+            },
+            {
+                "element": "div.new-conversation > div.conversations-search"
+            },
+            {
+                "links": [
+                    "contacts",
+                    "calendar"
+                ]
+            }
+        ]
+    }
+}

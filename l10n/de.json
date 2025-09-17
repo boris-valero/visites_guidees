@@ -1,0 +1,16 @@
+{ "translations": {
+    "Saved!" : "Gespeichert!",
+    "Intros" : "Intros",
+    "You can choose to enable/disable the tutorial for each app. Check the apps for which you want to see the tutorial and click save, or use the enable/disable all buttons." : "Du kannst das Tutorial für jede App einzeln aktivieren oder deaktivieren. Wähle die Apps aus, für die du das Tutorial sehen möchtest, und klicke auf 'Speichern', oder nutze die Buttons Alle Tutorials aktivieren'/Alle Tutorials deaktivieren.",
+    "Go to tutorial" : "Zum Tutorial",
+    "Save" : "Speichern",
+    "Enable all tutorials" : "Alle Tutorials aktivieren",
+    "Disable all tutorials" : "Alle Tutorials deaktivieren",
+    "Play this tutorial again next time" : "Dieses Tutorial beim nächsten Mal wieder abspielen",
+    "Next" : "Weiter",
+    "Done" : "Fertig",
+    "Previous" : "Zurück",
+    "Saved. This tutorial will play again next time." : "Gespeichert. Dieses Tutorial wird beim nächsten Mal erneut abgespielt.",
+    "Saved. This tutorial won't be shown again." : "Gespeichert. Dieses Tutorial wird nicht mehr angezeigt."
+},"pluralForm" :"nplurals=2; plural=n != 1;"
+}

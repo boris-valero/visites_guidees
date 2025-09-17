@@ -1,0 +1,42 @@
+{
+	"name": "nextcloud/intros",
+	"description": "Simple intro app to teach users how nextcloud is used",
+	"license": "AGPL-3.0-or-later",
+	"authors": [
+		{
+			"name": "Val Jossic",
+			"email": "val@framasoft.org"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"OCA\\Intros\\": "lib/",
+			"OCP\\": "vendor/nextcloud/ocp/OCP"
+		}
+	},
+	"scripts": {
+		"lint": "find . -name \\*.php -not -path './vendor/*' -not -path './vendor-bin/*' -not -path './build/*' -print0 | xargs -0 -n1 php -l",
+		"cs:check": "php-cs-fixer fix --dry-run --diff",
+		"cs:fix": "php-cs-fixer fix",
+		"psalm": "psalm.phar --threads=1 --no-cache",
+		"psalm:update-baseline": "psalm.phar --threads=1 --update-baseline --set-baseline=psalm-baseline.xml",
+		"test:unit": "phpunit tests -c tests/phpunit.xml --colors=always --fail-on-warning --fail-on-risky",
+		"openapi": "generate-spec"
+	},
+	"require": {
+		"php": "^8.2"
+	},
+	"require-dev": {
+		"nextcloud/coding-standard": "^1.2",
+		"nextcloud/ocp": "dev-stable30",
+		"psalm/phar": "^6.4.0",
+		"roave/security-advisories": "dev-latest"
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"sort-packages": true,
+		"platform": {
+			"php": "8.2"
+		}
+	}
+}
