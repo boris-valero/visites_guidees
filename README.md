@@ -63,3 +63,4 @@ Users can enable or disable the tutorial of each app in the user settings menu.
 Contributions are welcome! Check the [issue list](https://framagit.org/framasoft/framaspace/custom-apps/intros/-/issues) to find some issue to fix or report a problem.
 
 You can also contribute to translating this app via [weblate](https://weblate.framasoft.org/projects/framaspace-intro/).
+Thanks you for your support !
